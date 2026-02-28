@@ -16,6 +16,9 @@
       "ar": "تداول الأسهم",
       "hi": "शेयर ट्रेडिंग"
     },
+    "description": {
+      "en": "Buying and selling shares of publicly traded companies to profit from price changes. You own a tiny piece of real businesses — from Apple to your local bank. The most common entry point to investing, with moderate risk if you do your homework."
+    },
     "category": "trading-markets",
     "subcategory": "equities",
     "risk_level": 3,
@@ -105,6 +108,9 @@
       "ja": "デイトレード",
       "ar": "التداول اليومي",
       "hi": "डे ट्रेडिंग"
+    },
+    "description": {
+      "en": "Buying and selling stocks, crypto, or currencies within the same day to profit from small price movements. It sounds exciting, but studies show 95% of day traders lose money. High risk, high skill, not for beginners."
     },
     "category": "trading-markets",
     "subcategory": "short-term",
@@ -199,6 +205,9 @@
       "ar": "التداول المتأرجح",
       "hi": "स्विंग ट्रेडिंग"
     },
+    "description": {
+      "en": "Holding stocks or other assets for days to weeks, aiming to profit from short-term price swings. Less intense than day trading but still requires active attention — a middle ground between trading and investing."
+    },
     "category": "trading-markets",
     "subcategory": "short-term",
     "risk_level": 4,
@@ -287,6 +296,9 @@
       "ja": "FX取引",
       "ar": "تداول العملات الأجنبية",
       "hi": "फॉरेक्स ट्रेडिंग"
+    },
+    "description": {
+      "en": "Trading currencies against each other (like EUR/USD) on the world's largest financial market. Open 24/5 with huge liquidity, but the leverage that makes it accessible also makes it dangerous. Most retail forex traders lose money."
     },
     "category": "trading-markets",
     "subcategory": "currencies",
@@ -380,6 +392,9 @@
       "ar": "تداول العملات المشفرة",
       "hi": "क्रिप्टोकरेंसी ट्रेडिंग"
     },
+    "description": {
+      "en": "Buying and selling cryptocurrencies like Bitcoin, Ethereum, and altcoins. The market runs 24/7, is extremely volatile, and largely unregulated. Potential for huge gains — and equally huge losses."
+    },
     "category": "trading-markets",
     "subcategory": "crypto",
     "risk_level": 5,
@@ -470,6 +485,9 @@
       "ja": "オプション取引",
       "ar": "تداول الخيارات",
       "hi": "ऑप्शन ट्रेडिंग"
+    },
+    "description": {
+      "en": "Contracts that give you the right (but not obligation) to buy or sell an asset at a set price. Think of it as placing a bet on where a stock will go. Can be used for insurance or speculation — very flexible but very complex."
     },
     "category": "trading-markets",
     "subcategory": "derivatives",
@@ -564,6 +582,9 @@
       "ar": "تداول العقود الآجلة",
       "hi": "फ्यूचर्स ट्रेडिंग"
     },
+    "description": {
+      "en": "Contracts to buy or sell an asset at a future date and price. Originally designed for farmers to lock in crop prices, now used by speculators worldwide. High leverage means small moves create big gains or big losses."
+    },
     "category": "trading-markets",
     "subcategory": "derivatives",
     "risk_level": 5,
@@ -656,6 +677,9 @@
       "ar": "الأسهم الرخيصة",
       "hi": "पेनी स्टॉक्स"
     },
+    "description": {
+      "en": "Stocks priced under $5, often from tiny or struggling companies. They're cheap to buy but incredibly risky — many are pump-and-dump schemes. For every success story, there are thousands of people who lost everything."
+    },
     "category": "trading-markets",
     "subcategory": "equities",
     "risk_level": 5,
@@ -747,6 +771,9 @@
       "ar": "استثمار القيمة",
       "hi": "वैल्यू इन्वेस्टिंग"
     },
+    "description": {
+      "en": "Finding stocks that the market has underpriced compared to their true worth, then buying and holding them patiently. Warren Buffett's strategy. It requires research and patience, but has the strongest track record of any investing style."
+    },
     "category": "trading-markets",
     "subcategory": "equities",
     "risk_level": 2,
@@ -833,6 +860,9 @@
       "ja": "グロース投資",
       "ar": "استثمار النمو",
       "hi": "ग्रोथ इन्वेस्टिंग"
+    },
+    "description": {
+      "en": "Investing in companies expected to grow faster than the market average — think tech startups and innovative firms. You pay a premium for future potential. Higher reward if you pick right, but growth stocks can crash hard when expectations aren't met."
     },
     "category": "trading-markets",
     "subcategory": "equities",
@@ -925,6 +955,9 @@
       "ar": "تداول الزخم",
       "hi": "मोमेंटम ट्रेडिंग"
     },
+    "description": {
+      "en": "Buying assets that are trending up and selling those trending down, riding the wave of market psychology. It works until it doesn't — momentum can reverse suddenly. Requires discipline and quick decision-making."
+    },
     "category": "trading-markets",
     "subcategory": "short-term",
     "risk_level": 4,
@@ -1015,6 +1048,9 @@
       "ja": "アルゴリズム取引",
       "ar": "التداول الخوارزمي",
       "hi": "एल्गोरिदमिक ट्रेडिंग"
+    },
+    "description": {
+      "en": "Using computer programs to execute trades automatically based on mathematical models. Removes emotion from trading decisions, but requires programming skills and financial knowledge. Not a 'set and forget' — algorithms need constant monitoring."
     },
     "category": "trading-markets",
     "subcategory": "systematic",
@@ -1108,6 +1144,9 @@
       "ar": "التداول بالنسخ / التداول الاجتماعي",
       "hi": "कॉपी ट्रेडिंग / सोशल ट्रेडिंग"
     },
+    "description": {
+      "en": "Automatically copying the trades of experienced investors through platforms like eToro. You see their track record and allocate funds to mirror their moves. Low effort to start, but you're trusting someone else with your money."
+    },
     "category": "trading-markets",
     "subcategory": "social",
     "risk_level": 3,
@@ -1196,6 +1235,9 @@
       "ja": "コモディティ取引",
       "ar": "تداول السلع",
       "hi": "कमोडिटी ट्रेडिंग"
+    },
+    "description": {
+      "en": "Trading physical goods like gold, oil, wheat, or coffee through futures contracts or ETFs. Prices are driven by supply, demand, and global events. A way to diversify beyond stocks, but commodity markets can be wild."
     },
     "category": "trading-markets",
     "subcategory": "commodities",
@@ -1287,6 +1329,9 @@
       "ja": "スキャルピング",
       "ar": "المضاربة السريعة",
       "hi": "स्कैल्पिंग"
+    },
+    "description": {
+      "en": "Making dozens or hundreds of tiny trades per day, profiting from the smallest price movements. Requires lightning-fast execution, low fees, and nerves of steel. One of the most demanding trading styles — most people can't sustain it."
     },
     "category": "trading-markets",
     "subcategory": "short-term",
@@ -1380,6 +1425,9 @@
       "ar": "تداول المراكز",
       "hi": "पोजीशन ट्रेडिंग"
     },
+    "description": {
+      "en": "Holding investments for months to years based on long-term trends and fundamental analysis. The calmest form of trading — you ignore daily noise and focus on the big picture. Lower stress, lower fees, but requires patience."
+    },
     "category": "trading-markets",
     "subcategory": "long-term",
     "risk_level": 3,
@@ -1469,6 +1517,9 @@
       "ja": "CFD取引",
       "ar": "تداول عقود الفروقات",
       "hi": "CFD ट्रेडिंग"
+    },
+    "description": {
+      "en": "Contracts for Difference let you bet on price movements without owning the actual asset. You can go long or short with leverage, but losses can exceed your deposit. Banned in the US and heavily regulated elsewhere for good reason."
     },
     "category": "trading-markets",
     "subcategory": "derivatives",
@@ -1562,6 +1613,9 @@
       "ar": "صناعة السوق",
       "hi": "मार्केट मेकिंग"
     },
+    "description": {
+      "en": "Providing liquidity to markets by offering to both buy and sell an asset, profiting from the spread. It's how exchanges work. Extremely sophisticated, requires significant capital, and is dominated by professional firms."
+    },
     "category": "trading-markets",
     "subcategory": "systematic",
     "risk_level": 4,
@@ -1653,6 +1707,9 @@
       "ar": "الاستثمار في الأرباح الموزعة",
       "hi": "डिविडेंड इन्वेस्टिंग"
     },
+    "description": {
+      "en": "Buying stocks from companies that regularly share their profits with shareholders. You earn money just for holding the stock — like getting a paycheck from your investments. Reinvesting dividends creates powerful compound growth over time."
+    },
     "category": "passive-income",
     "subcategory": "equities",
     "risk_level": 2,
@@ -1740,6 +1797,9 @@
       "ja": "賃貸収入",
       "ar": "دخل الإيجار",
       "hi": "किराये से आय"
+    },
+    "description": {
+      "en": "Buying property and renting it out for monthly income. One of the oldest wealth-building strategies in history. It requires upfront capital and management work, but provides both cash flow and property value appreciation."
     },
     "category": "passive-income",
     "subcategory": "real-estate",
@@ -1834,6 +1894,9 @@
       "ar": "الاستثمار في صناديق REIT",
       "hi": "REIT निवेश"
     },
+    "description": {
+      "en": "Real Estate Investment Trusts let you invest in real estate without buying property. REITs own buildings, malls, hospitals, or apartments and pay you dividends from the rent. As easy as buying a stock, with real estate returns."
+    },
     "category": "passive-income",
     "subcategory": "real-estate",
     "risk_level": 2,
@@ -1920,6 +1983,9 @@
       "ja": "P2Pレンディング",
       "ar": "الإقراض من نظير إلى نظير",
       "hi": "पीयर-टू-पीयर लेंडिंग"
+    },
+    "description": {
+      "en": "Lending money directly to individuals or small businesses through online platforms, earning interest like a bank does. Higher returns than savings accounts, but some borrowers default. Spread your loans across many borrowers to reduce risk."
     },
     "category": "passive-income",
     "subcategory": "lending",
@@ -2011,6 +2077,9 @@
       "ar": "المنتجات الرقمية",
       "hi": "डिजिटल उत्पाद"
     },
+    "description": {
+      "en": "Creating and selling things like ebooks, templates, courses, or software once, then earning from each sale with zero production cost. The ultimate passive income — you build it once and it can sell forever while you sleep."
+    },
     "category": "passive-income",
     "subcategory": "online-business",
     "risk_level": 2,
@@ -2098,6 +2167,9 @@
       "ja": "アフィリエイト・マーケティング",
       "ar": "التسويق بالعمولة",
       "hi": "एफिलिएट मार्केटिंग"
+    },
+    "description": {
+      "en": "Earn commissions by recommending products you trust. You share a special link, someone buys through it, and you get a cut — no inventory, no customer service, no upfront investment needed."
     },
     "category": "passive-income",
     "subcategory": "online-business",
@@ -2187,6 +2259,9 @@
       "ar": "دخل حقوق الملكية",
       "hi": "रॉयल्टी आय"
     },
+    "description": {
+      "en": "Earning ongoing payments from intellectual property you've created — books, music, patents, or inventions. Every time someone buys your song, reads your book, or uses your patent, you get paid. True passive income from creative work."
+    },
     "category": "passive-income",
     "subcategory": "intellectual-property",
     "risk_level": 2,
@@ -2275,6 +2350,9 @@
       "ar": "حسابات التوفير ذات العائد المرتفع",
       "hi": "हाई-यील्ड सेविंग्स"
     },
+    "description": {
+      "en": "A savings account that pays significantly more interest than traditional banks — typically 4-5% vs 0.01%. Your money is FDIC insured and always accessible. The safest possible place to park cash while still earning something."
+    },
     "category": "passive-income",
     "subcategory": "savings",
     "risk_level": 1,
@@ -2360,6 +2438,9 @@
       "ja": "債券ラダリング",
       "ar": "سلم السندات",
       "hi": "बॉन्ड लैडरिंग"
+    },
+    "description": {
+      "en": "Buying bonds that mature at different dates (1 year, 3 years, 5 years) so you always have money becoming available. It's a strategy for steady, predictable income with very low risk — perfect for money you'll need in the medium term."
     },
     "category": "passive-income",
     "subcategory": "fixed-income",
@@ -2448,6 +2529,9 @@
       "ja": "暗号通貨ステーキング",
       "ar": "تخزين العملات المشفرة",
       "hi": "क्रिप्टो स्टेकिंग"
+    },
+    "description": {
+      "en": "Locking up your cryptocurrency to help validate transactions on a blockchain network, earning rewards in return. Like earning interest on your crypto holdings. Returns can be attractive, but the underlying crypto can still lose value."
     },
     "category": "passive-income",
     "subcategory": "crypto",
@@ -2539,6 +2623,9 @@
       "ar": "الطباعة حسب الطلب",
       "hi": "प्रिंट ऑन डिमांड"
     },
+    "description": {
+      "en": "Designing t-shirts, mugs, or posters that are only printed when someone orders them. No inventory, no upfront cost — you create the design, upload it, and the platform handles everything else. Low risk, creative, and completely location-independent."
+    },
     "category": "passive-income",
     "subcategory": "ecommerce",
     "risk_level": 2,
@@ -2627,6 +2714,9 @@
       "ar": "التصوير الفوتوغرافي للمخزون",
       "hi": "स्टॉक फोटोग्राफी"
     },
+    "description": {
+      "en": "Taking photos or creating graphics and selling them on platforms like Shutterstock or Adobe Stock. Each image can be sold thousands of times. It won't make you rich overnight, but a library of quality images generates truly passive income."
+    },
     "category": "passive-income",
     "subcategory": "creative",
     "risk_level": 1,
@@ -2714,6 +2804,9 @@
       "ja": "自動ドロップシッピング",
       "ar": "دروبشيبينغ آلي",
       "hi": "ऑटोमेटेड ड्रॉपशिपिंग"
+    },
+    "description": {
+      "en": "Running an online store where you never touch the products — when someone orders, your supplier ships directly to them. Low startup cost, but margins are thin and customer service is still your problem. Works best when automated with the right tools."
     },
     "category": "passive-income",
     "subcategory": "ecommerce",
@@ -2804,6 +2897,9 @@
       "ja": "アプリ/SaaS収益",
       "ar": "إيرادات التطبيقات/SaaS",
       "hi": "ऐप/SaaS राजस्व"
+    },
+    "description": {
+      "en": "Building a mobile app or SaaS (Software as a Service) product that generates recurring revenue through subscriptions or in-app purchases. High upfront effort and technical skill, but a successful app can generate income for years with minimal maintenance."
     },
     "category": "passive-income",
     "subcategory": "tech",
@@ -2897,6 +2993,9 @@
       "ar": "أعمال آلات البيع",
       "hi": "वेंडिंग मशीन व्यापार"
     },
+    "description": {
+      "en": "Placing vending machines in high-traffic locations and earning money from each sale. A simple, tangible business that runs 24/7 without employees. Requires finding good locations and regular restocking, but can be surprisingly profitable per machine."
+    },
     "category": "passive-income",
     "subcategory": "physical-business",
     "risk_level": 2,
@@ -2984,6 +3083,9 @@
       "ja": "ライセンスとフランチャイズ",
       "ar": "الترخيص والامتياز",
       "hi": "लाइसेंसिंग और फ्रैंचाइज़िंग"
+    },
+    "description": {
+      "en": "Licensing your brand, product designs, or intellectual property to other companies in exchange for royalties. You create it once, then other companies do the work of manufacturing and selling. A way to scale without scaling your own operations."
     },
     "category": "passive-income",
     "subcategory": "intellectual-property",
@@ -3073,6 +3175,9 @@
       "ar": "المعاشات السنوية",
       "hi": "वार्षिकी"
     },
+    "description": {
+      "en": "A contract with an insurance company that pays you a guaranteed income stream, usually in retirement. You pay a lump sum or series of payments now, and they pay you back steadily later — like creating your own pension."
+    },
     "category": "passive-income",
     "subcategory": "insurance",
     "risk_level": 1,
@@ -3160,6 +3265,9 @@
       "ja": "YouTube/コンテンツ制作",
       "ar": "إنشاء محتوى يوتيوب",
       "hi": "यूट्यूब/कंटेंट क्रिएशन"
+    },
+    "description": {
+      "en": "Creating videos for YouTube and earning from ads, sponsorships, and merchandise. It takes time to build an audience, but successful creators earn passive income from videos they made years ago. Your content library becomes an appreciating asset."
     },
     "category": "passive-income",
     "subcategory": "online-business",
@@ -3249,6 +3357,9 @@
       "ar": "العمل الحر",
       "hi": "फ्रीलांसिंग"
     },
+    "description": {
+      "en": "Selling your skills directly to clients — writing, design, programming, marketing, or any expertise. You trade time for money, but you choose your clients, rates, and schedule. The fastest way to start earning independently with zero startup cost."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "services",
     "risk_level": 2,
@@ -3337,6 +3448,9 @@
       "ar": "الاستشارات",
       "hi": "कंसल्टिंग"
     },
+    "description": {
+      "en": "Advising businesses or individuals based on your specialized expertise. Higher rates than freelancing because you're selling knowledge and strategy, not just execution. Requires credibility in your field, but can be incredibly lucrative."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "services",
     "risk_level": 2,
@@ -3424,6 +3538,9 @@
       "ja": "ECサイト運営",
       "ar": "متجر إلكتروني",
       "hi": "ई-कॉमर्स स्टोर"
+    },
+    "description": {
+      "en": "Selling products online through your own website or platforms like Shopify. You control your brand, prices, and customer experience. Requires learning about marketing, inventory, and logistics, but online retail keeps growing every year."
     },
     "category": "business-entrepreneurship",
     "subcategory": "retail",
@@ -3515,6 +3632,9 @@
       "ja": "SaaSビジネス",
       "ar": "أعمال SaaS",
       "hi": "SaaS व्यापार"
+    },
+    "description": {
+      "en": "Building software that people pay to use monthly. High upfront development cost, but recurring revenue makes it the most valuable business model in tech. A SaaS business with loyal customers is like a money-printing machine."
     },
     "category": "business-entrepreneurship",
     "subcategory": "tech",
@@ -3608,6 +3728,9 @@
       "ar": "نموذج الوكالة",
       "hi": "एजेंसी मॉडल"
     },
+    "description": {
+      "en": "Building a team that delivers services (marketing, design, development) to multiple clients. You earn the margin between what you pay your team and what clients pay you. Scalable, but managing people and clients is the real challenge."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "services",
     "risk_level": 3,
@@ -3699,6 +3822,9 @@
       "ar": "أعمال خدمات محلية",
       "hi": "स्थानीय सेवा व्यापार"
     },
+    "description": {
+      "en": "Providing services in your area — cleaning, tutoring, repairs, landscaping, pet care. Low startup cost, immediate demand, and you can start today. Many millionaires built their wealth from simple, unglamorous local services."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "local",
     "risk_level": 2,
@@ -3786,6 +3912,9 @@
       "ja": "飲食ビジネス",
       "ar": "أعمال الأغذية والمشروبات",
       "hi": "खाद्य एवं पेय व्यापार"
+    },
+    "description": {
+      "en": "Starting a restaurant, food truck, catering service, or packaged food brand. Everyone eats, so demand is guaranteed — but margins are thin, competition is fierce, and the work is physically demanding. Passion for food is essential."
     },
     "category": "business-entrepreneurship",
     "subcategory": "food",
@@ -3879,6 +4008,9 @@
       "ar": "التدريب والإرشاد",
       "hi": "कोचिंग और मेंटरिंग"
     },
+    "description": {
+      "en": "Helping people achieve their goals through one-on-one or group guidance. Whether it's business, health, career, or life coaching — if you've achieved results in an area, people will pay to learn how. Extremely low overhead, high margins."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "services",
     "risk_level": 1,
@@ -3966,6 +4098,9 @@
       "ja": "不動産転売",
       "ar": "تقليب العقارات",
       "hi": "रियल एस्टेट फ्लिपिंग"
+    },
+    "description": {
+      "en": "Buying undervalued properties, renovating them, and selling for a profit. It's more work than TV shows suggest — you need to understand construction costs, local markets, and timing. High potential returns, but mistakes are expensive."
     },
     "category": "business-entrepreneurship",
     "subcategory": "real-estate",
@@ -4060,6 +4195,9 @@
       "ar": "إنشاء الدورات عبر الإنترنت",
       "hi": "ऑनलाइन कोर्स निर्माण"
     },
+    "description": {
+      "en": "Packaging your knowledge into a structured learning experience and selling it to students worldwide. Create it once, sell it forever. The e-learning market is booming, and you don't need a PhD — just real expertise that helps people."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "education",
     "risk_level": 1,
@@ -4147,6 +4285,9 @@
       "ja": "サブスクリプションボックス事業",
       "ar": "أعمال صناديق الاشتراك",
       "hi": "सब्सक्रिप्शन बॉक्स व्यापार"
+    },
+    "description": {
+      "en": "Curating and shipping themed boxes of products monthly (snacks, beauty, books, hobbies). Predictable recurring revenue, but logistics and customer retention are the real challenges. Works best in passionate niche communities."
     },
     "category": "business-entrepreneurship",
     "subcategory": "ecommerce",
@@ -4239,6 +4380,9 @@
       "ar": "منصة سوق إلكتروني",
       "hi": "मार्केटप्लेस प्लेटफॉर्म"
     },
+    "description": {
+      "en": "Building a platform where buyers and sellers connect (like Airbnb or Etsy). You earn a commission on every transaction. Extremely hard to start (chicken-and-egg problem), but the most valuable businesses in the world are marketplaces."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "tech",
     "risk_level": 4,
@@ -4328,6 +4472,9 @@
       "ja": "輸出入ビジネス",
       "ar": "أعمال الاستيراد والتصدير",
       "hi": "आयात/निर्यात व्यापार"
+    },
+    "description": {
+      "en": "Buying products in one country where they're cheap and selling them in another where they're expensive. Global trade has been building fortunes for thousands of years. Requires understanding of logistics, customs, and international markets."
     },
     "category": "business-entrepreneurship",
     "subcategory": "trade",
@@ -4421,6 +4568,9 @@
       "ar": "ملكية الامتياز التجاري",
       "hi": "फ्रैंचाइज़ स्वामित्व"
     },
+    "description": {
+      "en": "Buying the right to operate under an established brand (McDonald's, Subway, etc). You get a proven system and brand recognition, but you pay franchise fees and follow their rules. Lower risk than starting from scratch, higher cost to enter."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "franchise",
     "risk_level": 3,
@@ -4513,6 +4663,9 @@
       "ar": "صانع المحتوى",
       "hi": "कंटेंट क्रिएटर"
     },
+    "description": {
+      "en": "Building an audience on social media, blogs, or podcasts and monetizing through ads, sponsorships, and products. It's a modern business model where your personality and expertise are the product. Takes time to build, but the ceiling is unlimited."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "media",
     "risk_level": 2,
@@ -4601,6 +4754,9 @@
       "ar": "تخطيط الفعاليات",
       "hi": "इवेंट प्लानिंग व्यापार"
     },
+    "description": {
+      "en": "Organizing weddings, corporate events, conferences, or festivals for clients. A service business that relies on your organizational skills and vendor network. Seasonal but lucrative — one great event leads to dozens of referrals."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "services",
     "risk_level": 2,
@@ -4688,6 +4844,9 @@
       "ja": "モバイルアプリ開発",
       "ar": "تطوير تطبيقات الجوال",
       "hi": "मोबाइल ऐप डेवलपमेंट"
+    },
+    "description": {
+      "en": "Building mobile applications for clients or as your own products. High demand skill that can be freelanced, contracted, or used to build your own app business. The app economy generates over $400 billion annually."
     },
     "category": "business-entrepreneurship",
     "subcategory": "tech",
@@ -4781,6 +4940,9 @@
       "ar": "منتجات العلامة البيضاء",
       "hi": "व्हाइट लेबल उत्पाद"
     },
+    "description": {
+      "en": "Buying generic products and selling them under your own brand name. Many store-brand products are white-labeled. Lower margins than creating your own product, but much faster to market and lower risk."
+    },
     "category": "business-entrepreneurship",
     "subcategory": "ecommerce",
     "risk_level": 2,
@@ -4870,6 +5032,9 @@
       "ar": "الاستثمار في صناديق المؤشرات",
       "hi": "इंडेक्स फंड निवेश"
     },
+    "description": {
+      "en": "Instead of picking individual stocks, you buy a fund that holds hundreds of companies at once. It's the strategy Warren Buffett recommends for most people — low fees, broad diversification, and historically 7-10% annual returns."
+    },
     "category": "investment-fundamentals",
     "subcategory": "funds",
     "risk_level": 2,
@@ -4956,6 +5121,9 @@
       "ja": "ETF投資",
       "ar": "الاستثمار في صناديق ETF",
       "hi": "ETF निवेश"
+    },
+    "description": {
+      "en": "Exchange-Traded Funds combine the diversification of index funds with the flexibility of stocks — you can buy and sell them anytime during market hours. Lower fees than most mutual funds, and you can build a complete portfolio with just 3-4 ETFs."
     },
     "category": "investment-fundamentals",
     "subcategory": "funds",
@@ -5044,6 +5212,9 @@
       "ar": "صناديق التاريخ المستهدف",
       "hi": "टारगेट डेट फंड"
     },
+    "description": {
+      "en": "Pick the year you plan to retire, buy the matching fund, and forget about it. The fund automatically shifts from aggressive (stocks) to conservative (bonds) as your retirement date approaches. The ultimate set-it-and-forget-it strategy."
+    },
     "category": "investment-fundamentals",
     "subcategory": "funds",
     "risk_level": 2,
@@ -5129,6 +5300,9 @@
       "ja": "債券投資",
       "ar": "الاستثمار في السندات",
       "hi": "बॉन्ड निवेश"
+    },
+    "description": {
+      "en": "Lending money to governments or companies in exchange for regular interest payments. Bonds are less exciting than stocks but more predictable. They're the safety net in any portfolio — when stocks crash, bonds usually hold steady."
     },
     "category": "investment-fundamentals",
     "subcategory": "fixed-income",
@@ -5217,6 +5391,9 @@
       "ja": "不動産投資",
       "ar": "الاستثمار العقاري",
       "hi": "रियल एस्टेट निवेश"
+    },
+    "description": {
+      "en": "Buying property to hold long-term for appreciation and rental income. Real estate has created more millionaires than any other asset class. It requires significant capital and management, but provides both income and wealth building."
     },
     "category": "investment-fundamentals",
     "subcategory": "real-estate",
@@ -5310,6 +5487,9 @@
       "ar": "حساب التقاعد الوظيفي",
       "hi": "कर्मचारी भविष्य निधि / सेवानिवृत्ति खाता"
     },
+    "description": {
+      "en": "An employer-sponsored retirement account where your contributions reduce your taxable income. Many employers match your contributions — that's free money. One of the most tax-efficient ways to build wealth over your career."
+    },
     "category": "investment-fundamentals",
     "subcategory": "retirement",
     "risk_level": 2,
@@ -5396,6 +5576,9 @@
       "ja": "Roth IRA（税制優遇退職口座）",
       "ar": "حساب تقاعد فردي معفى من الضرائب (Roth IRA)",
       "hi": "Roth IRA (कर-मुक्त सेवानिवृत्ति खाता)"
+    },
+    "description": {
+      "en": "A retirement account where you pay taxes now but all future growth and withdrawals are tax-free. If you're young and expect your income to grow, a Roth IRA can save you tens of thousands in taxes over your lifetime."
     },
     "category": "investment-fundamentals",
     "subcategory": "retirement",
@@ -5485,6 +5668,9 @@
       "ar": "متوسط تكلفة الاستثمار",
       "hi": "डॉलर कॉस्ट एवरेजिंग"
     },
+    "description": {
+      "en": "Investing a fixed amount on a regular schedule (weekly, monthly) regardless of market conditions. You automatically buy more shares when prices are low and fewer when they're high. Removes emotion from investing and works remarkably well over time."
+    },
     "category": "investment-fundamentals",
     "subcategory": "strategy",
     "risk_level": 2,
@@ -5571,6 +5757,9 @@
       "ja": "ポートフォリオ・リバランス",
       "ar": "إعادة توازن المحفظة",
       "hi": "पोर्टफोलियो रीबैलेंसिंग"
+    },
+    "description": {
+      "en": "Periodically adjusting your investments back to your target mix (e.g., 70% stocks, 30% bonds). When stocks surge, you sell some and buy bonds; when stocks crash, you do the opposite. This discipline forces you to buy low and sell high."
     },
     "category": "investment-fundamentals",
     "subcategory": "strategy",
@@ -5660,6 +5849,9 @@
       "ar": "توزيع الأصول",
       "hi": "एसेट एलोकेशन"
     },
+    "description": {
+      "en": "Deciding how to split your money between stocks, bonds, real estate, and other assets based on your age, goals, and risk tolerance. Studies show asset allocation determines 90% of your portfolio's performance — it matters more than picking individual stocks."
+    },
     "category": "investment-fundamentals",
     "subcategory": "strategy",
     "risk_level": 2,
@@ -5748,6 +5940,9 @@
       "ar": "الذهب والمعادن الثمينة",
       "hi": "सोना और कीमती धातुएँ"
     },
+    "description": {
+      "en": "Investing in gold, silver, or other precious metals as a hedge against inflation and economic uncertainty. Gold has been valuable for 5,000 years and tends to rise when everything else falls. Not a growth investment, but a store of value."
+    },
     "category": "investment-fundamentals",
     "subcategory": "alternative",
     "risk_level": 2,
@@ -5835,6 +6030,9 @@
       "ar": "سندات الخزانة",
       "hi": "सरकारी प्रतिभूतियाँ"
     },
+    "description": {
+      "en": "Lending money to the U.S. government in exchange for guaranteed interest payments. Backed by the full faith of the U.S. government, these are the safest investments in the world. Lower returns, but virtually zero risk of losing your money."
+    },
     "category": "investment-fundamentals",
     "subcategory": "fixed-income",
     "risk_level": 1,
@@ -5920,6 +6118,9 @@
       "ja": "投資信託",
       "ar": "صناديق الاستثمار المشتركة",
       "hi": "म्यूचुअल फंड"
+    },
+    "description": {
+      "en": "Pooling your money with other investors to buy a professionally managed portfolio of stocks, bonds, or other assets. An easy way to get diversification and professional management, though fees can eat into returns over time."
     },
     "category": "investment-fundamentals",
     "subcategory": "funds",
@@ -6008,6 +6209,9 @@
       "ar": "شهادات الإيداع",
       "hi": "सावधि जमा प्रमाणपत्र"
     },
+    "description": {
+      "en": "Locking your money in a bank for a fixed period (3 months to 5 years) in exchange for a guaranteed interest rate. FDIC insured up to $250,000 — your money is 100% safe. Best for money you know you won't need until the term ends."
+    },
     "category": "investment-fundamentals",
     "subcategory": "savings",
     "risk_level": 1,
@@ -6093,6 +6297,9 @@
       "ja": "国際分散投資",
       "ar": "التنويع الدولي",
       "hi": "अंतरराष्ट्रीय विविधीकरण"
+    },
+    "description": {
+      "en": "Investing in markets outside your home country to reduce risk and capture growth worldwide. When the U.S. market struggles, international markets may thrive. True diversification means going global, not just owning different American stocks."
     },
     "category": "investment-fundamentals",
     "subcategory": "strategy",
@@ -6184,6 +6391,9 @@
       "ar": "حصاد الخسائر الضريبية",
       "hi": "टैक्स लॉस हार्वेस्टिंग"
     },
+    "description": {
+      "en": "Selling investments at a loss to offset your capital gains taxes, then buying similar investments to stay in the market. It's like getting a tax discount on your losses. Can save thousands in taxes annually for active investors."
+    },
     "category": "investment-fundamentals",
     "subcategory": "strategy",
     "risk_level": 2,
@@ -6272,6 +6482,9 @@
       "ar": "الاستثمار المسؤول اجتماعياً (ESG)",
       "hi": "ESG निवेश"
     },
+    "description": {
+      "en": "Investing in companies that meet environmental, social, and governance (ESG) standards. Put your money where your values are — exclude polluters, weapon makers, or exploitative companies while still earning competitive returns."
+    },
     "category": "investment-fundamentals",
     "subcategory": "thematic",
     "risk_level": 2,
@@ -6359,6 +6572,9 @@
       "ar": "الاستثمار عبر المستشار الآلي",
       "hi": "रोबो-एडवाइज़र निवेश"
     },
+    "description": {
+      "en": "An app that builds and manages your investment portfolio automatically using algorithms. You answer a few questions about your goals, and it handles everything — rebalancing, tax optimization, diversification. Investing made as simple as a savings account."
+    },
     "category": "investment-fundamentals",
     "subcategory": "automated",
     "risk_level": 2,
@@ -6444,6 +6660,9 @@
       "ja": "タイムブロッキング",
       "ar": "تقسيم الوقت",
       "hi": "टाइम ब्लॉकिंग"
+    },
+    "description": {
+      "en": "Assigning specific tasks to specific time slots in your calendar, treating your time like appointments. Instead of a to-do list, you have a time-mapped plan for every hour. Simple but transformative — it's how CEOs and top performers manage their days."
     },
     "category": "productivity-time",
     "subcategory": "scheduling",
@@ -6532,6 +6751,9 @@
       "ar": "تقنية بومودورو",
       "hi": "पोमोडोरो तकनीक"
     },
+    "description": {
+      "en": "Work in focused 25-minute blocks with 5-minute breaks. It sounds too simple to work, but it's one of the most effective productivity methods ever developed — perfect for fighting procrastination and information overload."
+    },
     "category": "productivity-time",
     "subcategory": "focus",
     "risk_level": 1,
@@ -6617,6 +6839,9 @@
       "ja": "ディープワーク",
       "ar": "أسلوب العمل العميق",
       "hi": "डीप वर्क विधि"
+    },
+    "description": {
+      "en": "Eliminating all distractions to focus intensely on cognitively demanding tasks. In a world of constant notifications, the ability to do deep work is becoming rare — and therefore incredibly valuable. Master this and you'll outperform people twice as smart."
     },
     "category": "productivity-time",
     "subcategory": "focus",
@@ -6706,6 +6931,9 @@
       "ar": "أتمتة المهام",
       "hi": "कार्य स्वचालन"
     },
+    "description": {
+      "en": "Using software tools and scripts to handle repetitive tasks automatically — email responses, data entry, scheduling, reporting. Every hour you automate is an hour you get back forever. The ROI is infinite once it's set up."
+    },
     "category": "productivity-time",
     "subcategory": "systems",
     "risk_level": 1,
@@ -6793,6 +7021,9 @@
       "ja": "アウトソーシングと委任",
       "ar": "الاستعانة بمصادر خارجية والتفويض",
       "hi": "आउटसोर्सिंग और प्रतिनिधिमंडल"
+    },
+    "description": {
+      "en": "Hiring others to do tasks that aren't the best use of your time. If your time is worth $50/hour, why spend it on $15/hour tasks? Outsource cleaning, bookkeeping, or data work, and focus on what only you can do."
     },
     "category": "productivity-time",
     "subcategory": "leverage",
@@ -6882,6 +7113,9 @@
       "ar": "روتين صباحي محسّن",
       "hi": "अनुकूलित सुबह की दिनचर्या"
     },
+    "description": {
+      "en": "Designing the first 1-2 hours of your day for maximum energy, focus, and intention. Most successful people swear by their morning routine — exercise, meditation, planning, or learning before the world demands your attention."
+    },
     "category": "productivity-time",
     "subcategory": "habits",
     "risk_level": 1,
@@ -6968,6 +7202,9 @@
       "ja": "デジタル・ミニマリズム",
       "ar": "البساطة الرقمية",
       "hi": "डिजिटल मिनिमलिज़्म"
+    },
+    "description": {
+      "en": "Intentionally reducing your digital tools, apps, and screen time to what truly adds value. The average person spends 7+ hours on screens daily. Cutting the noise frees up time, attention, and mental energy for what actually matters."
     },
     "category": "productivity-time",
     "subcategory": "focus",
@@ -7056,6 +7293,9 @@
       "ar": "تجميع المهام",
       "hi": "टास्क बैचिंग"
     },
+    "description": {
+      "en": "Grouping similar tasks together and doing them all in one session instead of switching between different types of work. Answer all emails at once, make all calls in one block, write all content in one sitting. Reduces context-switching and dramatically increases efficiency."
+    },
     "category": "productivity-time",
     "subcategory": "efficiency",
     "risk_level": 1,
@@ -7142,6 +7382,9 @@
       "ja": "GTD（Getting Things Done）",
       "ar": "إنجاز الأمور (GTD)",
       "hi": "गेटिंग थिंग्स डन (GTD)"
+    },
+    "description": {
+      "en": "David Allen's GTD system captures everything on your mind, organizes it by context and priority, and reviews it weekly. It turns mental chaos into a trusted external system, freeing your brain to think instead of remember."
     },
     "category": "productivity-time",
     "subcategory": "systems",
@@ -7230,6 +7473,9 @@
       "ar": "المراجعة الأسبوعية",
       "hi": "साप्ताहिक समीक्षा"
     },
+    "description": {
+      "en": "Setting aside 30-60 minutes each week to review your goals, tasks, finances, and progress. It's the habit that makes all other habits work. Without regular reflection, you stay busy without being productive."
+    },
     "category": "productivity-time",
     "subcategory": "reflection",
     "risk_level": 1,
@@ -7315,6 +7561,9 @@
       "ja": "エネルギー管理",
       "ar": "إدارة الطاقة الشخصية",
       "hi": "ऊर्जा प्रबंधन"
+    },
+    "description": {
+      "en": "Managing your energy levels rather than your time — scheduling your hardest work during peak energy hours and routine tasks during low-energy periods. You have 3-4 hours of peak cognitive performance per day. Use them wisely."
     },
     "category": "productivity-time",
     "subcategory": "performance",
@@ -7403,6 +7652,9 @@
       "ar": "مبدأ باريتو 80/20",
       "hi": "80/20 पैरेटो सिद्धांत"
     },
+    "description": {
+      "en": "80% of your results come from 20% of your efforts. Identify the few activities that drive most of your income, happiness, and progress, then ruthlessly eliminate or minimize everything else. Work smarter, not harder."
+    },
     "category": "productivity-time",
     "subcategory": "strategy",
     "risk_level": 1,
@@ -7489,6 +7741,9 @@
       "ja": "目標設定とOKR",
       "ar": "تحديد الأهداف ومؤشرات OKR",
       "hi": "लक्ष्य निर्धारण और OKRs"
+    },
+    "description": {
+      "en": "Setting clear Objectives and Key Results — a framework used by Google, Intel, and top performers everywhere. Vague goals produce vague results. OKRs force clarity: what do you want, and how will you measure success?"
     },
     "category": "productivity-time",
     "subcategory": "strategy",
@@ -7577,6 +7832,9 @@
       "ar": "القراءة السريعة والتعلم",
       "hi": "तेज़ पठन और सीखना"
     },
+    "description": {
+      "en": "Techniques to read faster while maintaining comprehension — chunking, reducing subvocalization, and previewing. The average person reads 250 words per minute. With practice, you can double or triple that speed and absorb more knowledge in less time."
+    },
     "category": "productivity-time",
     "subcategory": "skills",
     "risk_level": 1,
@@ -7664,6 +7922,9 @@
       "ar": "تراكم العادات",
       "hi": "हैबिट स्टैकिंग"
     },
+    "description": {
+      "en": "Attaching a new habit to an existing one — 'After I pour my morning coffee, I will review my financial goals for 5 minutes.' It works because it uses established routines as triggers. The easiest way to build new habits that actually stick."
+    },
     "category": "productivity-time",
     "subcategory": "habits",
     "risk_level": 1,
@@ -7748,6 +8009,9 @@
       "ja": "カレンダー監査",
       "ar": "تدقيق التقويم",
       "hi": "कैलेंडर ऑडिट"
+    },
+    "description": {
+      "en": "Reviewing how you actually spend your time versus how you think you spend it. Track every hour for one week, then compare it to your goals. Most people are shocked to find they spend 3+ hours daily on activities that don't align with what they say matters most."
     },
     "category": "productivity-time",
     "subcategory": "analysis",
@@ -7834,6 +8098,9 @@
       "ja": "AI生産性ツール",
       "ar": "أدوات الإنتاجية بالذكاء الاصطناعي",
       "hi": "AI उत्पादकता उपकरण"
+    },
+    "description": {
+      "en": "Using AI assistants, writing tools, and automation to multiply your output. From drafting emails to analyzing data to generating ideas — AI tools can save hours per day. The people who learn to use AI effectively will have an unfair advantage."
     },
     "category": "productivity-time",
     "subcategory": "technology",
@@ -7922,6 +8189,9 @@
       "ar": "اليوميات المالية",
       "hi": "वित्तीय जर्नलिंग"
     },
+    "description": {
+      "en": "Writing down your financial decisions, emotions, and lessons regularly. A financial journal shows you your own patterns — when you spend emotionally, what triggers bad decisions, and how your thinking evolves. Self-awareness is the most underrated financial skill."
+    },
     "category": "productivity-time",
     "subcategory": "reflection",
     "risk_level": 1,
@@ -8007,6 +8277,9 @@
       "ja": "家計管理（50/30/20ルール）",
       "ar": "إعداد الميزانية (50/30/20)",
       "hi": "बजट बनाना (50/30/20)"
+    },
+    "description": {
+      "en": "The foundation of all financial health. The 50/30/20 rule splits your income into needs (50%), wants (30%), and savings (20%). Simple to start, life-changing when you stick with it."
     },
     "category": "financial-literacy",
     "subcategory": "basics",
@@ -8095,6 +8368,9 @@
       "ar": "إدارة الديون",
       "hi": "ऋण प्रबंधन"
     },
+    "description": {
+      "en": "A systematic approach to paying off what you owe — using either the snowball method (smallest debt first for motivation) or avalanche method (highest interest first for savings). Every dollar of debt paid off is a guaranteed return equal to that debt's interest rate."
+    },
     "category": "financial-literacy",
     "subcategory": "basics",
     "risk_level": 1,
@@ -8180,6 +8456,9 @@
       "ja": "クレジットスコアの構築",
       "ar": "بناء التصنيف الائتماني",
       "hi": "क्रेडिट स्कोर निर्माण"
+    },
+    "description": {
+      "en": "Your credit score is a three-digit number that determines the interest rates you pay on everything from mortgages to car loans. A difference of 100 points can save or cost you tens of thousands over your lifetime. Building it takes time, but the rules are simple."
     },
     "category": "financial-literacy",
     "subcategory": "credit",
@@ -8268,6 +8547,9 @@
       "ar": "بناء صندوق الطوارئ",
       "hi": "आपातकालीन निधि निर्माण"
     },
+    "description": {
+      "en": "Money set aside for unexpected expenses — job loss, medical bills, car repairs. Experts recommend 3-6 months of expenses. Without one, every surprise becomes a financial crisis. With one, surprises are just inconveniences."
+    },
     "category": "financial-literacy",
     "subcategory": "savings",
     "risk_level": 1,
@@ -8354,6 +8636,9 @@
       "ja": "税金最適化",
       "ar": "التحسين الضريبي",
       "hi": "कर अनुकूलन"
+    },
+    "description": {
+      "en": "Legally minimizing how much tax you pay through deductions, credits, retirement accounts, and strategic timing. The tax code rewards certain behaviors. Learning the rules can save you thousands every year — money that goes straight to your wealth building."
     },
     "category": "financial-literacy",
     "subcategory": "tax",
@@ -8443,6 +8728,9 @@
       "ar": "تخطيط التأمين",
       "hi": "बीमा योजना"
     },
+    "description": {
+      "en": "Choosing the right insurance (health, life, disability, property) to protect yourself and your family from financial catastrophe. Insurance isn't exciting, but it prevents a single bad event from destroying years of financial progress."
+    },
     "category": "financial-literacy",
     "subcategory": "protection",
     "risk_level": 1,
@@ -8529,6 +8817,9 @@
       "ja": "相続・遺産計画",
       "ar": "تخطيط التركة",
       "hi": "संपदा नियोजन"
+    },
+    "description": {
+      "en": "Deciding what happens to your money and assets when you die. Without a will or trust, the state decides for you. Estate planning protects your family, minimizes taxes, and ensures your wishes are followed. Not just for the wealthy."
     },
     "category": "financial-literacy",
     "subcategory": "planning",
@@ -8618,6 +8909,9 @@
       "ar": "فهم الفائدة المركبة",
       "hi": "चक्रवृद्धि ब्याज को समझना"
     },
+    "description": {
+      "en": "Einstein reportedly called it the eighth wonder of the world. Your money earns interest, then that interest earns interest, creating exponential growth over time. $100/month at 8% becomes $150,000 in 30 years. Time is the secret ingredient."
+    },
     "category": "financial-literacy",
     "subcategory": "concepts",
     "risk_level": 1,
@@ -8704,6 +8998,9 @@
       "ar": "الوعي بالتضخم",
       "hi": "मुद्रास्फीति जागरूकता"
     },
+    "description": {
+      "en": "Understanding that money loses purchasing power over time. $100 today buys less than $100 five years ago. If your savings don't grow faster than inflation (typically 2-3% per year), you're actually getting poorer by standing still."
+    },
     "category": "financial-literacy",
     "subcategory": "concepts",
     "risk_level": 1,
@@ -8789,6 +9086,9 @@
       "ja": "財務目標の設定",
       "ar": "تحديد الأهداف المالية",
       "hi": "वित्तीय लक्ष्य निर्धारण"
+    },
+    "description": {
+      "en": "Setting specific, measurable financial targets with deadlines — 'Save $10,000 emergency fund by December' instead of 'save more money.' People with written financial goals are 42% more likely to achieve them than those without."
     },
     "category": "financial-literacy",
     "subcategory": "planning",
@@ -8877,6 +9177,9 @@
       "ar": "قراءة البيانات المالية",
       "hi": "वित्तीय विवरण पढ़ना"
     },
+    "description": {
+      "en": "Learning to read balance sheets, income statements, and cash flow statements. These are the X-ray of any business. If you can read financial statements, you can separate great companies from frauds — a skill that pays for itself forever."
+    },
     "category": "financial-literacy",
     "subcategory": "analysis",
     "risk_level": 1,
@@ -8964,6 +9267,9 @@
       "ar": "فهم أسعار الفائدة",
       "hi": "ब्याज दरों को समझना"
     },
+    "description": {
+      "en": "Knowing how interest rates affect everything from your savings account to the entire economy. When rates rise, borrowing costs more but savings earn more. Understanding this one concept helps you make better decisions about debt, investing, and major purchases."
+    },
     "category": "financial-literacy",
     "subcategory": "concepts",
     "risk_level": 1,
@@ -9049,6 +9355,9 @@
       "ja": "純資産の追跡",
       "ar": "تتبع صافي الثروة",
       "hi": "कुल संपत्ति ट्रैकिंग"
+    },
+    "description": {
+      "en": "Calculating everything you own minus everything you owe, then tracking this number over time. It's your financial scoreboard. Income means nothing if your net worth isn't growing. Check it monthly — what gets measured gets managed."
     },
     "category": "financial-literacy",
     "subcategory": "tracking",
@@ -9136,6 +9445,9 @@
       "ar": "مهارات التفاوض",
       "hi": "बातचीत कौशल"
     },
+    "description": {
+      "en": "Learning to ask for more — whether it's your salary, a business deal, or the price of a car. Most people leave money on the table because they never ask. One successful salary negotiation can be worth $500,000+ over a career."
+    },
     "category": "financial-literacy",
     "subcategory": "skills",
     "risk_level": 1,
@@ -9222,6 +9534,9 @@
       "ja": "複数の収入源を構築する",
       "ar": "بناء مصادر دخل متعددة",
       "hi": "कई आय स्रोतों का निर्माण"
+    },
+    "description": {
+      "en": "Building additional ways to earn money beyond your main job. The average millionaire has 7 income streams. This isn't about working 7 jobs — it's about creating a mix of active work, investments, and passive income that work together."
     },
     "category": "financial-literacy",
     "subcategory": "strategy",
@@ -9311,6 +9626,9 @@
       "ar": "التعرف على الاحتيال المالي",
       "hi": "वित्तीय धोखाधड़ी की पहचान"
     },
+    "description": {
+      "en": "Learning to recognize and avoid financial fraud — from crypto pump-and-dumps to Ponzi schemes to fake investment gurus. If someone promises guaranteed high returns with no risk, they're either lying or confused. Skepticism is your best financial protection."
+    },
     "category": "financial-literacy",
     "subcategory": "protection",
     "risk_level": 1,
@@ -9396,6 +9714,9 @@
       "ja": "金融心理学とバイアス",
       "ar": "علم النفس المالي والتحيزات",
       "hi": "वित्तीय मनोविज्ञान और पूर्वाग्रह"
+    },
+    "description": {
+      "en": "Understanding the mental biases that cause bad financial decisions — fear of loss, herd mentality, anchoring, overconfidence. Your biggest enemy in building wealth isn't the market — it's your own brain. Self-awareness is the antidote."
     },
     "category": "financial-literacy",
     "subcategory": "psychology",
@@ -9483,6 +9804,9 @@
       "ja": "退職後の計画",
       "ar": "التخطيط للتقاعد",
       "hi": "सेवानिवृत्ति योजना"
+    },
+    "description": {
+      "en": "Creating a roadmap for when you stop working — how much you'll need, where it'll come from, and when you can do it. The earlier you start planning, the less you need to save. Someone starting at 25 needs to save half as much per month as someone starting at 35."
     },
     "category": "financial-literacy",
     "subcategory": "planning",

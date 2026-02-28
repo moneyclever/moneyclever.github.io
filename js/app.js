@@ -131,12 +131,19 @@ function _benefitFullBar(dimension, value) {
   </div>`;
 }
 
+function _strategyDesc(strategy) {
+  if (!strategy.description) return '';
+  const lang = I18n.getLang();
+  return strategy.description[lang] || strategy.description.en || '';
+}
+
 function _strategyCardHtml(strategy) {
   const name = _strategyName(strategy);
   const emoji = strategy.emoji || '';
   const catColor = _categoryColor(strategy.category);
   const benefits = strategy.benefits || {};
   const dims = ['income', 'time_freedom', 'scalability', 'stability', 'accessibility'];
+  const desc = _strategyDesc(strategy);
 
   const benefitPreview = dims.map(d => _benefitBarHtml(d, benefits[d] || 0)).join('');
 
@@ -149,6 +156,7 @@ function _strategyCardHtml(strategy) {
       <span class="card-icon">${emoji}</span>
       <span class="card-title">${name}</span>
     </div>
+    ${desc ? `<p class="strategy-card-desc">${desc}</p>` : ''}
     <div class="strategy-card-badges">
       ${_riskBadge(strategy.risk_level)}
       ${_difficultyBadge(strategy.difficulty)}
@@ -331,10 +339,12 @@ function renderIndex() {
     featuredCards.innerHTML = featured.map(s => {
       const catColor = _categoryColor(s.category);
       const tags = (s.tags || []).slice(0, 3).map(t => `<span class="featured-tag">${t}</span>`).join('');
+      const desc = _strategyDesc(s);
       return `<a href="strategy-detail.html?id=${s.id}" class="card featured-card" style="border-left-color:${catColor}">
         <span class="card-icon">${s.emoji || ''}</span>
         <div>
           <span class="card-title">${_strategyName(s)}</span>
+          ${desc ? `<p class="featured-desc">${desc}</p>` : ''}
           <div class="featured-tags">${tags}</div>
           <div style="margin-top:0.3rem">${_riskBadge(s.risk_level)} ${_difficultyBadge(s.difficulty)}</div>
         </div>
@@ -441,6 +451,7 @@ function renderStrategyDetail() {
 
     <div class="detail-header">
       <h1>${strategy.emoji || ''} ${name}</h1>
+      ${_strategyDesc(strategy) ? `<p class="detail-description">${_strategyDesc(strategy)}</p>` : ''}
       <div class="detail-tags">
         <span class="tag category-tag" style="background:${catColor}">${_t('cat.' + strategy.category.replace(/-/g, '_'))}</span>
         ${strategy.subcategory ? `<span class="tag subcategory-tag">${strategy.subcategory}</span>` : ''}
@@ -730,7 +741,14 @@ function _runComparison() {
 
   summaryEl.innerHTML = `
     <h3>${_t('compare.summary')}</h3>
-    ${scores.map((s, i) => `<p>${i + 1}. <strong>${s.name}</strong> — Overall: ${s.score}%, Risk: ${_t('risk.' + s.risk)}</p>`).join('')}
+    ${strategies.map((strat, i) => {
+      const desc = _strategyDesc(strat);
+      const sc = scores.find(x => x.name === _strategyName(strat));
+      return `<div class="compare-summary-item">
+        <p><strong>${i + 1}. ${_strategyName(strat)}</strong> — Overall: ${sc ? sc.score : 0}%, Risk: ${_t('risk.' + strat.risk_level)}</p>
+        ${desc ? `<p class="compare-summary-desc">${desc}</p>` : ''}
+      </div>`;
+    }).join('')}
   `;
 }
 
