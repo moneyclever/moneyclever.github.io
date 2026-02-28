@@ -1,0 +1,134 @@
+[
+  {
+    "id": "pay_yourself_first",
+    "emoji": "💰",
+    "title_key": "principle.pay_yourself_first",
+    "desc_key": "principle.pay_yourself_first.desc",
+    "quote_key": "principle.pay_yourself_first.quote",
+    "explanation_key": "principle.pay_yourself_first.explanation",
+    "color": "#2E7D32",
+    "related_strategies": ["budgeting", "emergency_fund"],
+    "thinker": "robert_kiyosaki"
+  },
+  {
+    "id": "compound_interest",
+    "emoji": "❄️",
+    "title_key": "principle.compound_interest",
+    "desc_key": "principle.compound_interest.desc",
+    "quote_key": "principle.compound_interest.quote",
+    "explanation_key": "principle.compound_interest.explanation",
+    "color": "#00695C",
+    "related_strategies": ["index_fund_investing", "dividend_investing"],
+    "thinker": "warren_buffett"
+  },
+  {
+    "id": "diversification",
+    "emoji": "⚖️",
+    "title_key": "principle.diversification",
+    "desc_key": "principle.diversification.desc",
+    "quote_key": "principle.diversification.quote",
+    "explanation_key": "principle.diversification.explanation",
+    "color": "#1565C0",
+    "related_strategies": ["asset_allocation", "international_diversification"],
+    "thinker": "harry_markowitz"
+  },
+  {
+    "id": "risk_reward",
+    "emoji": "🎲",
+    "title_key": "principle.risk_reward",
+    "desc_key": "principle.risk_reward.desc",
+    "quote_key": "principle.risk_reward.quote",
+    "explanation_key": "principle.risk_reward.explanation",
+    "color": "#D32F2F",
+    "related_strategies": ["options_trading", "stock_trading"],
+    "thinker": "nassim_taleb"
+  },
+  {
+    "id": "emergency_fund",
+    "emoji": "🆘",
+    "title_key": "principle.emergency_fund",
+    "desc_key": "principle.emergency_fund.desc",
+    "quote_key": "principle.emergency_fund.quote",
+    "explanation_key": "principle.emergency_fund.explanation",
+    "color": "#E65100",
+    "related_strategies": ["emergency_fund", "high_yield_savings"],
+    "thinker": "dave_ramsey"
+  },
+  {
+    "id": "dollar_cost_averaging",
+    "emoji": "🔁",
+    "title_key": "principle.dollar_cost_averaging",
+    "desc_key": "principle.dollar_cost_averaging.desc",
+    "quote_key": "principle.dollar_cost_averaging.quote",
+    "explanation_key": "principle.dollar_cost_averaging.explanation",
+    "color": "#6A1B9A",
+    "related_strategies": ["dollar_cost_averaging", "index_fund_investing"],
+    "thinker": "jack_bogle"
+  },
+  {
+    "id": "live_below_means",
+    "emoji": "🏠",
+    "title_key": "principle.live_below_means",
+    "desc_key": "principle.live_below_means.desc",
+    "quote_key": "principle.live_below_means.quote",
+    "explanation_key": "principle.live_below_means.explanation",
+    "color": "#00838F",
+    "related_strategies": ["budgeting", "debt_management"],
+    "thinker": "warren_buffett"
+  },
+  {
+    "id": "time_in_market",
+    "emoji": "⏳",
+    "title_key": "principle.time_in_market",
+    "desc_key": "principle.time_in_market.desc",
+    "quote_key": "principle.time_in_market.quote",
+    "explanation_key": "principle.time_in_market.explanation",
+    "color": "#004D40",
+    "related_strategies": ["index_fund_investing", "etf_investing"],
+    "thinker": "peter_lynch"
+  },
+  {
+    "id": "asset_allocation",
+    "emoji": "🥧",
+    "title_key": "principle.asset_allocation",
+    "desc_key": "principle.asset_allocation.desc",
+    "quote_key": "principle.asset_allocation.quote",
+    "explanation_key": "principle.asset_allocation.explanation",
+    "color": "#AD1457",
+    "related_strategies": ["asset_allocation", "portfolio_rebalancing"],
+    "thinker": "ray_dalio"
+  },
+  {
+    "id": "tax_efficiency",
+    "emoji": "🧾",
+    "title_key": "principle.tax_efficiency",
+    "desc_key": "principle.tax_efficiency.desc",
+    "quote_key": "principle.tax_efficiency.quote",
+    "explanation_key": "principle.tax_efficiency.explanation",
+    "color": "#4A148C",
+    "related_strategies": ["tax_optimization", "tax_loss_harvesting"],
+    "thinker": "benjamin_graham"
+  },
+  {
+    "id": "debt_management",
+    "emoji": "⛓️",
+    "title_key": "principle.debt_management",
+    "desc_key": "principle.debt_management.desc",
+    "quote_key": "principle.debt_management.quote",
+    "explanation_key": "principle.debt_management.explanation",
+    "color": "#B71C1C",
+    "related_strategies": ["debt_management", "credit_score_building"],
+    "thinker": "dave_ramsey"
+  },
+  {
+    "id": "multiple_streams",
+    "emoji": "🌊",
+    "title_key": "principle.multiple_streams",
+    "desc_key": "principle.multiple_streams.desc",
+    "quote_key": "principle.multiple_streams.quote",
+    "explanation_key": "principle.multiple_streams.explanation",
+    "color": "#FFB300",
+    "related_strategies": ["multiple_income_streams", "freelancing"],
+    "thinker": "robert_kiyosaki"
+  }
+]

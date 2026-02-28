@@ -1,0 +1,56 @@
+[
+  {
+    "id": "trading-markets",
+    "name_key": "cat.trading_markets",
+    "desc_key": "cat.trading_markets.desc",
+    "link_key": "cat.trading_markets.link",
+    "icon": "\ud83d\udcc8",
+    "color": "#D32F2F",
+    "page": "trading-markets.html"
+  },
+  {
+    "id": "passive-income",
+    "name_key": "cat.passive_income",
+    "desc_key": "cat.passive_income.desc",
+    "link_key": "cat.passive_income.link",
+    "icon": "\ud83d\udcb0",
+    "color": "#2E7D32",
+    "page": "passive-income.html"
+  },
+  {
+    "id": "business-entrepreneurship",
+    "name_key": "cat.business_entrepreneurship",
+    "desc_key": "cat.business_entrepreneurship.desc",
+    "link_key": "cat.business_entrepreneurship.link",
+    "icon": "\ud83d\ude80",
+    "color": "#1565C0",
+    "page": "business-entrepreneurship.html"
+  },
+  {
+    "id": "investment-fundamentals",
+    "name_key": "cat.investment_fundamentals",
+    "desc_key": "cat.investment_fundamentals.desc",
+    "link_key": "cat.investment_fundamentals.link",
+    "icon": "\ud83c\udfe6",
+    "color": "#6A1B9A",
+    "page": "investment-fundamentals.html"
+  },
+  {
+    "id": "productivity-time",
+    "name_key": "cat.productivity_time",
+    "desc_key": "cat.productivity_time.desc",
+    "link_key": "cat.productivity_time.link",
+    "icon": "\u23f0",
+    "color": "#E65100",
+    "page": "productivity-time.html"
+  },
+  {
+    "id": "financial-literacy",
+    "name_key": "cat.financial_literacy",
+    "desc_key": "cat.financial_literacy.desc",
+    "link_key": "cat.financial_literacy.link",
+    "icon": "\ud83d\udcda",
+    "color": "#00838F",
+    "page": "financial-literacy.html"
+  }
+]

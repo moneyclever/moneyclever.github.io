@@ -1,0 +1,42 @@
+{
+  "income": {
+    "id": "income",
+    "name_key": "benefit.income",
+    "icon": "\ud83d\udcb0",
+    "color": "#2E7D32",
+    "description_key": "benefit.income.desc",
+    "metrics": ["earning_potential", "revenue_ceiling", "monthly_cash_flow", "wealth_building", "roi"]
+  },
+  "time_freedom": {
+    "id": "time_freedom",
+    "name_key": "benefit.time_freedom",
+    "icon": "\u23f0",
+    "color": "#1565C0",
+    "description_key": "benefit.time_freedom.desc",
+    "metrics": ["automation_level", "passive_ratio", "maintenance_hours", "location_independence", "schedule_flexibility"]
+  },
+  "scalability": {
+    "id": "scalability",
+    "name_key": "benefit.scalability",
+    "icon": "\ud83d\udcc8",
+    "color": "#6A1B9A",
+    "description_key": "benefit.scalability.desc",
+    "metrics": ["growth_ceiling", "leverage_potential", "marginal_cost_reduction", "network_effects", "compounding"]
+  },
+  "stability": {
+    "id": "stability",
+    "name_key": "benefit.stability",
+    "icon": "\ud83d\udee1\ufe0f",
+    "color": "#E65100",
+    "description_key": "benefit.stability.desc",
+    "metrics": ["income_consistency", "downside_protection", "recession_resilience", "predictability", "inflation_hedge"]
+  },
+  "accessibility": {
+    "id": "accessibility",
+    "name_key": "benefit.accessibility",
+    "icon": "\ud83c\udfaf",
+    "color": "#00838F",
+    "description_key": "benefit.accessibility.desc",
+    "metrics": ["capital_required", "skill_barrier", "learning_curve", "tools_availability", "regulatory_ease"]
+  }
+}
