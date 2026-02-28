@@ -1168,6 +1168,57 @@ function renderRiskCalculator() {
       .sort((a, b) => b.evidence_rating - a.evidence_rating)
       .slice(0, 6);
 
+    /* Personalized profile advice */
+    const profileAdvice = {
+      conservative: {
+        description: _t('calc.advice.conservative.desc'),
+        immediate: [
+          _t('calc.advice.conservative.action1'),
+          _t('calc.advice.conservative.action2'),
+          _t('calc.advice.conservative.action3')
+        ],
+        experiment: _t('calc.advice.conservative.experiment')
+      },
+      moderate: {
+        description: _t('calc.advice.moderate.desc'),
+        immediate: [
+          _t('calc.advice.moderate.action1'),
+          _t('calc.advice.moderate.action2'),
+          _t('calc.advice.moderate.action3')
+        ],
+        experiment: _t('calc.advice.moderate.experiment')
+      },
+      balanced: {
+        description: _t('calc.advice.balanced.desc'),
+        immediate: [
+          _t('calc.advice.balanced.action1'),
+          _t('calc.advice.balanced.action2'),
+          _t('calc.advice.balanced.action3')
+        ],
+        experiment: _t('calc.advice.balanced.experiment')
+      },
+      growth: {
+        description: _t('calc.advice.growth.desc'),
+        immediate: [
+          _t('calc.advice.growth.action1'),
+          _t('calc.advice.growth.action2'),
+          _t('calc.advice.growth.action3')
+        ],
+        experiment: _t('calc.advice.growth.experiment')
+      },
+      aggressive: {
+        description: _t('calc.advice.aggressive.desc'),
+        immediate: [
+          _t('calc.advice.aggressive.action1'),
+          _t('calc.advice.aggressive.action2'),
+          _t('calc.advice.aggressive.action3')
+        ],
+        experiment: _t('calc.advice.aggressive.experiment')
+      }
+    };
+
+    const advice = profileAdvice[profile];
+
     el.innerHTML = `
       ${_backLink()}
       <h1>${_t('calc.title')}</h1>
@@ -1176,6 +1227,17 @@ function renderRiskCalculator() {
         <div class="calc-profile">
           <div>${_t('calc.your_profile')}</div>
           <div class="calc-profile-label" style="color:${profileColor}">${_t('calc.profile.' + profile)}</div>
+        </div>
+
+        <div class="calc-advice">
+          <p class="calc-advice-desc">${advice.description}</p>
+          <h3>${_t('calc.advice.start_today')}</h3>
+          <ul class="calc-advice-actions">
+            ${advice.immediate.map(a => `<li>${a}</li>`).join('')}
+          </ul>
+          <div class="calc-advice-experiment">
+            <strong>${_t('calc.advice.experiment')}:</strong> ${advice.experiment}
+          </div>
         </div>
 
         <h2>${_t('calc.allocation')}</h2>

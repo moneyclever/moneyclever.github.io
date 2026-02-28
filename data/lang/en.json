@@ -193,6 +193,40 @@
   "calc.profile.balanced": "Balanced",
   "calc.profile.growth": "Growth-Oriented",
   "calc.profile.aggressive": "Aggressive",
+
+  "calc.advice.start_today": "Start Today",
+  "calc.advice.experiment": "Try This Experiment",
+
+  "calc.advice.conservative.desc": "You value safety and stability above all. That's not a weakness — it's a foundation. Your priority is protecting what you have while slowly building more. The good news: the safest strategies are also the most proven over time.",
+  "calc.advice.conservative.action1": "Open a high-yield savings account today and set up an automatic transfer of even $25/week — this builds the habit that matters more than the amount",
+  "calc.advice.conservative.action2": "Calculate your emergency fund target (3-6 months of expenses) and write it on a sticky note where you see it daily",
+  "calc.advice.conservative.action3": "Read about the 50/30/20 budgeting rule — knowing where your money goes is the first step to controlling it",
+  "calc.advice.conservative.experiment": "Put $50 in a separate envelope or account. Don't touch it for 30 days. At the end, notice how it feels to have that small safety net. That feeling is the seed of financial confidence.",
+
+  "calc.advice.moderate.desc": "You're careful but open to growth. This is actually the sweet spot for long-term wealth building — you have the patience to let compound interest work, and the courage to put your money somewhere it can grow.",
+  "calc.advice.moderate.action1": "Set up a brokerage account and buy your first index fund (even $100 is enough to start) — the hardest part is the first purchase",
+  "calc.advice.moderate.action2": "Automate a monthly investment of a fixed amount — even $50/month at 8% return becomes $35,000 in 20 years",
+  "calc.advice.moderate.action3": "Learn about dollar cost averaging — it removes the stress of 'timing the market' and turns investing into a simple routine",
+  "calc.advice.moderate.experiment": "Split $100 into two: put $50 in a savings account and $50 in a broad index fund (like an S&P 500 ETF). Check both after 6 months. See the difference between saving and investing with your own eyes.",
+
+  "calc.advice.balanced.desc": "You understand that some risk is necessary for growth, but you want to sleep well at night. You're the type who can build real wealth over time because you won't panic-sell during dips, but you also won't leave all your money under the mattress.",
+  "calc.advice.balanced.action1": "Build a simple 3-fund portfolio: domestic stocks, international stocks, and bonds — this gives you diversification with minimal effort",
+  "calc.advice.balanced.action2": "Identify one skill you could monetize as a side income (freelancing, consulting, digital products) and take the first step this week",
+  "calc.advice.balanced.action3": "Review your subscriptions and recurring expenses — redirect what you save into your investment account",
+  "calc.advice.balanced.experiment": "Take $200 and split it three ways: $100 in index funds, $50 in a slightly riskier investment (a sector ETF or REIT), and $50 in learning (a book or online course about investing). Track all three for 6 months — you'll learn what kind of investor you naturally are.",
+
+  "calc.advice.growth.desc": "You're ambitious and willing to accept volatility for higher returns. You have the temperament to handle market swings — just make sure you have a solid foundation first. The biggest risk for growth-oriented investors isn't the market — it's overconfidence.",
+  "calc.advice.growth.action1": "Make sure you have at least 3 months of emergency savings BEFORE taking on higher-risk investments — this prevents forced selling during downturns",
+  "calc.advice.growth.action2": "Allocate no more than 10-20% of your portfolio to high-risk/high-reward strategies — keep the core in proven index funds",
+  "calc.advice.growth.action3": "Start building a second income stream — your job funds your life, your side income funds your investments",
+  "calc.advice.growth.experiment": "Set aside $500. Put $300 in a growth ETF, and $200 in a single stock you've researched thoroughly. Track both for 3 months. Compare your stock-picking results to the ETF — most professionals can't beat the index, and this experiment will teach you why diversification matters.",
+
+  "calc.advice.aggressive.desc": "You're a risk-taker who sees opportunity where others see danger. This can lead to exceptional returns — or exceptional losses. The key difference between successful aggressive investors and gamblers is research, discipline, and knowing exactly how much you can afford to lose.",
+  "calc.advice.aggressive.action1": "Set a hard loss limit BEFORE you invest: 'I will not risk more than X% of my total savings on high-risk plays' — write it down and stick to it",
+  "calc.advice.aggressive.action2": "Build your knowledge base first: learn to read financial statements, understand market cycles, and study at least 3 strategies before committing real money",
+  "calc.advice.aggressive.action3": "Paper-trade (simulate) your strategy for 30 days before using real money — this tests your approach without the emotional pressure",
+  "calc.advice.aggressive.experiment": "Take $100 you can afford to lose completely. Use it to try one high-risk strategy (crypto, options, individual stock). Track every decision and emotion in a journal for 30 days. Win or lose, the journal is worth more than the investment — it shows you your real risk tolerance, not the one you imagined.",
+
   "calc.age.18_25": "18–25",
   "calc.age.26_35": "26–35",
   "calc.age.36_45": "36–45",
