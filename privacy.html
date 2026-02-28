@@ -120,14 +120,14 @@
     (function() {
       var el = document.getElementById('visitor-counter');
       if (!el) return;
-      var r = new XMLHttpRequest();
-      r.open('GET', 'https://moneyclever.goatcounter.com/counter/' + encodeURIComponent('/') + '.json');
-      r.onload = function() {
-        if (r.status === 200) {
-          try { var data = JSON.parse(r.responseText); el.textContent = data.count_unique + ' visitors'; } catch(e) {}
-        }
-      };
-      r.send();
+      setTimeout(function() {
+        var p = location.pathname || '/';
+        if (p === '/index.html') p = '/';
+        fetch('https://moneyclever.goatcounter.com/counter/' + encodeURIComponent(p) + '.json')
+          .then(function(r) { return r.ok ? r.json() : Promise.reject(); })
+          .then(function(data) { el.textContent = data.count + ' visitors'; })
+          .catch(function() {});
+      }, 1500);
     })();
     </script>
 </body>
