@@ -1317,6 +1317,61 @@ a.card {
     line-height: 1.5;
 }
 
+.calc-explore-cats {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.calc-explore-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 1.25rem;
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-left: 4px solid var(--mc-primary);
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.calc-explore-card:hover {
+    box-shadow: 0 4px 16px rgba(0,105,92,0.12);
+    transform: translateY(-2px);
+}
+
+.calc-explore-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.calc-explore-name {
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--mc-dark);
+}
+
+.calc-explore-pct {
+    font-size: 0.85rem;
+    color: var(--mc-primary);
+    font-weight: 500;
+}
+
+.calc-explore-count {
+    font-size: 0.8rem;
+    color: var(--text-gray);
+}
+
+.calc-explore-arrow {
+    margin-left: auto;
+    font-size: 1.3rem;
+    color: var(--mc-primary);
+    flex-shrink: 0;
+}
+
 .calc-chart-container {
     max-width: 350px;
     margin: 1.5rem auto;

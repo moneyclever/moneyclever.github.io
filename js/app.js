@@ -1181,10 +1181,17 @@ function renderRiskCalculator() {
 
     /* Recommended strategies */
     const maxRisk = profile === 'conservative' ? 2 : profile === 'moderate' ? 3 : profile === 'balanced' ? 3 : profile === 'growth' ? 4 : 5;
-    const recommended = Data.getAllStrategies()
-      .filter(s => s.risk_level <= maxRisk)
-      .sort((a, b) => b.evidence_rating - a.evidence_rating)
-      .slice(0, 6);
+    /* Pick from top categories for this profile */
+    const topCats = Object.entries(myAlloc).filter(([,pct]) => pct > 0).sort((a, b) => b[1] - a[1]);
+    let recommended = [];
+    for (const [catId] of topCats) {
+      const catStrategies = Data.getStrategiesByCategory(catId)
+        .filter(s => s.risk_level <= maxRisk)
+        .sort((a, b) => b.evidence_rating - a.evidence_rating);
+      const take = catId === topCats[0][0] ? 3 : 2;
+      recommended.push(...catStrategies.slice(0, take));
+    }
+    recommended = recommended.filter((s, i, arr) => arr.findIndex(x => x.id === s.id) === i).slice(0, 6);
 
     /* Personalized profile advice */
     const profileAdvice = {
@@ -1277,6 +1284,24 @@ function renderRiskCalculator() {
         <h2 style="margin-top:2rem">${_t('calc.recommended')}</h2>
         <div class="cards-grid grid-3x2">
           ${recommended.map(s => _strategyCardHtml(s)).join('')}
+        </div>
+
+        <h2 style="margin-top:2rem">${_t('calc.start_exploring')}</h2>
+        <p class="section-subtitle">${_t('calc.start_exploring_desc')}</p>
+        <div class="calc-explore-cats">
+          ${cats
+            .filter(cat => myAlloc[cat.id] > 0)
+            .sort((a, b) => (myAlloc[b.id] || 0) - (myAlloc[a.id] || 0))
+            .slice(0, 3)
+            .map(cat => `<a href="${cat.page}" class="calc-explore-card" style="border-left-color:${cat.color}">
+              <span class="calc-explore-icon">${cat.icon}</span>
+              <div>
+                <div class="calc-explore-name">${_t(cat.name_key)}</div>
+                <div class="calc-explore-pct">${myAlloc[cat.id]}% ${_t('calc.of_your_focus')}</div>
+                <div class="calc-explore-count">${Data.getStrategiesByCategory(cat.id).length} ${_t('calc.strategies_to_explore')}</div>
+              </div>
+              <span class="calc-explore-arrow">\u2192</span>
+            </a>`).join('')}
         </div>
 
         ${_warningBox([_t('expected_return.disclaimer')])}
