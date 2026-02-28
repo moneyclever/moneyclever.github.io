@@ -1012,61 +1012,61 @@ function renderRiskCalculator() {
     {
       title: _t('calc.age'),
       options: [
-        { label: '18-25', value: 1 },
-        { label: '26-35', value: 2 },
-        { label: '36-45', value: 3 },
-        { label: '46-55', value: 4 },
-        { label: '55+', value: 5 }
+        { label: _t('calc.age.18_25'), value: 1 },
+        { label: _t('calc.age.26_35'), value: 2 },
+        { label: _t('calc.age.36_45'), value: 3 },
+        { label: _t('calc.age.46_55'), value: 4 },
+        { label: _t('calc.age.55_plus'), value: 5 }
       ]
     },
     {
       title: _t('calc.income'),
       options: [
-        { label: '< $2,000/mo', value: 1 },
-        { label: '$2,000 - $4,000/mo', value: 2 },
-        { label: '$4,000 - $8,000/mo', value: 3 },
-        { label: '$8,000 - $15,000/mo', value: 4 },
-        { label: '$15,000+/mo', value: 5 }
+        { label: _t('calc.income.very_low'), value: 1 },
+        { label: _t('calc.income.low'), value: 2 },
+        { label: _t('calc.income.medium'), value: 3 },
+        { label: _t('calc.income.high'), value: 4 },
+        { label: _t('calc.income.very_high'), value: 5 }
       ]
     },
     {
       title: _t('calc.savings'),
       options: [
-        { label: 'No savings', value: 1 },
-        { label: '< 3 months expenses', value: 2 },
-        { label: '3-6 months expenses', value: 3 },
-        { label: '6-12 months expenses', value: 4 },
-        { label: '12+ months expenses', value: 5 }
+        { label: _t('calc.savings.none'), value: 1 },
+        { label: _t('calc.savings.minimal'), value: 2 },
+        { label: _t('calc.savings.basic'), value: 3 },
+        { label: _t('calc.savings.solid'), value: 4 },
+        { label: _t('calc.savings.strong'), value: 5 }
       ]
     },
     {
       title: _t('calc.risk_tolerance'),
       options: [
-        { label: 'Very Conservative — I can\'t afford to lose anything', value: 1 },
-        { label: 'Conservative — Small losses are OK', value: 2 },
-        { label: 'Moderate — Balanced risk and reward', value: 3 },
-        { label: 'Aggressive — I can handle significant drops', value: 4 },
-        { label: 'Very Aggressive — Maximum growth, maximum risk', value: 5 }
+        { label: _t('calc.risk.very_conservative'), value: 1 },
+        { label: _t('calc.risk.conservative'), value: 2 },
+        { label: _t('calc.risk.moderate'), value: 3 },
+        { label: _t('calc.risk.aggressive'), value: 4 },
+        { label: _t('calc.risk.very_aggressive'), value: 5 }
       ]
     },
     {
       title: _t('calc.time_horizon'),
       options: [
-        { label: '< 1 year', value: 1 },
-        { label: '1-3 years', value: 2 },
-        { label: '3-5 years', value: 3 },
-        { label: '5-10 years', value: 4 },
-        { label: '10+ years', value: 5 }
+        { label: _t('calc.horizon.under_1'), value: 1 },
+        { label: _t('calc.horizon.1_3'), value: 2 },
+        { label: _t('calc.horizon.3_5'), value: 3 },
+        { label: _t('calc.horizon.5_10'), value: 4 },
+        { label: _t('calc.horizon.10_plus'), value: 5 }
       ]
     },
     {
       title: _t('calc.goals'),
       options: [
-        { label: 'Protect what I have', value: 1 },
-        { label: 'Generate side income', value: 2 },
-        { label: 'Build long-term wealth', value: 3 },
-        { label: 'Achieve financial independence', value: 4 },
-        { label: 'Maximize growth aggressively', value: 5 }
+        { label: _t('calc.goals.preserve'), value: 1 },
+        { label: _t('calc.goals.side_income'), value: 2 },
+        { label: _t('calc.goals.long_term'), value: 3 },
+        { label: _t('calc.goals.independence'), value: 4 },
+        { label: _t('calc.goals.max_growth'), value: 5 }
       ]
     }
   ];
