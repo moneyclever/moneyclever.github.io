@@ -10,6 +10,8 @@
   "nav.risk_calculator": "Risk Calculator",
   "nav.thinkers": "Thinkers",
   "nav.principles": "Principles",
+  "nav.stories": "Strange Success Stories",
+  "nav.mindset": "Money vs. Wealth",
   "nav.strategy_search": "Search Strategies",
   "nav.wisdom_library": "Explore",
 
@@ -230,6 +232,18 @@
 
   "principles.title": "Money Principles",
   "principles.subtitle": "Timeless rules and principles that have stood the test of time across generations of investors.",
+
+  "stories.title": "Strange but Successful",
+  "stories.subtitle": "The wildest, weirdest, and most unconventional paths to wealth. Proof that the best ideas often sound ridiculous at first.",
+  "stories.lesson": "Lesson",
+
+  "mindset.title": "Money vs. Wealth",
+  "mindset.subtitle": "Why a big paycheck doesn't make you wealthy — and the mindset traps that keep millions of people broke.",
+  "mindset.reality_check": "Reality Check",
+  "mindset.mindset_fix": "Mindset Fix",
+  "mindset.cat.trap": "Wealth Traps",
+  "mindset.cat.psychology": "Psychology",
+  "mindset.cat.mindset": "Mindset Shifts",
 
   "wisdom.title": "The Money Mindset",
   "wisdom.text": "Building wealth is not about getting rich quick — it's about understanding risk, making informed decisions, and letting time work for you. Every strategy has trade-offs. Your job is to understand them.",

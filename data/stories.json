@@ -1,0 +1,134 @@
+[
+  {
+    "id": "pet_rock",
+    "emoji": "🪨",
+    "title": { "en": "The Pet Rock" },
+    "year": 1975,
+    "person": "Gary Dahl",
+    "earnings": "$15 million in 6 months",
+    "story": { "en": "A marketing executive sold ordinary rocks in cardboard boxes with air holes and a care manual. At $3.95 each, he sold over 1.5 million in 6 months. The product cost almost nothing to make — the genius was entirely in the packaging and humor." },
+    "lesson": { "en": "The value is in the idea, not the product. Marketing and timing can turn anything into gold." },
+    "tags": ["marketing", "creativity", "low-capital"]
+  },
+  {
+    "id": "million_dollar_homepage",
+    "emoji": "🖥️",
+    "title": { "en": "The Million Dollar Homepage" },
+    "year": 2005,
+    "person": "Alex Tew",
+    "earnings": "$1,000,000",
+    "story": { "en": "A 21-year-old British student created a webpage with 1 million pixels and sold each pixel for $1 to advertisers. The absurd simplicity went viral. Every single pixel was sold within 5 months." },
+    "lesson": { "en": "Simple ideas executed boldly can beat complex business plans. Novelty attracts attention, and attention is currency." },
+    "tags": ["internet", "creativity", "viral"]
+  },
+  {
+    "id": "bottled_air",
+    "emoji": "💨",
+    "title": { "en": "Selling Bottled Air" },
+    "year": 2015,
+    "person": "Moses Lam (Vitality Air)",
+    "earnings": "$1M+ annually",
+    "story": { "en": "A Canadian entrepreneur started bottling fresh Rocky Mountain air and selling it to customers in polluted cities in China. What began as a joke on eBay turned into a real company shipping thousands of bottles internationally." },
+    "lesson": { "en": "One person's abundance is another's scarcity. Identifying overlooked value gaps between markets is a legitimate business strategy." },
+    "tags": ["export", "scarcity", "unconventional"]
+  },
+  {
+    "id": "ship_your_enemies_glitter",
+    "emoji": "✨",
+    "title": { "en": "Ship Your Enemies Glitter" },
+    "year": 2015,
+    "person": "Mathew Carpenter",
+    "earnings": "$85,000 (sold in 4 days)",
+    "story": { "en": "An Australian man created a website where you could anonymously send an envelope full of glitter to someone you disliked. It went viral overnight. He was so overwhelmed by orders that he sold the business within 4 days for $85,000." },
+    "lesson": { "en": "Viral ideas don't need to be serious. Humor and relatability can create instant demand — know when to sell at the peak." },
+    "tags": ["viral", "humor", "quick-exit"]
+  },
+  {
+    "id": "red_paperclip",
+    "emoji": "📎",
+    "title": { "en": "One Red Paperclip to a House" },
+    "year": 2006,
+    "person": "Kyle MacDonald",
+    "earnings": "A house (from a paperclip)",
+    "story": { "en": "A Canadian blogger started with one red paperclip and made 14 trades over one year — paperclip to pen, pen to doorknob, doorknob to camping stove, all the way up to a two-story farmhouse in Saskatchewan." },
+    "lesson": { "en": "Value is subjective. Negotiation skills and persistence can multiply small advantages into life-changing outcomes." },
+    "tags": ["negotiation", "persistence", "zero-capital"]
+  },
+  {
+    "id": "doggles",
+    "emoji": "🐕",
+    "title": { "en": "Doggles — Sunglasses for Dogs" },
+    "year": 1997,
+    "person": "Roni Di Lullo",
+    "earnings": "$3M+ annually",
+    "story": { "en": "After noticing her dog squinting in the sun, Roni created UV-protective goggles for dogs. Everyone laughed — until the US military started buying them for working dogs. Now used worldwide by military, police, and pet owners." },
+    "lesson": { "en": "Don't let people laugh you out of a real solution. Niche markets can be surprisingly deep and loyal." },
+    "tags": ["niche", "pets", "persistence"]
+  },
+  {
+    "id": "truck_nuts",
+    "emoji": "🚛",
+    "title": { "en": "Truck Nuts" },
+    "year": 1998,
+    "person": "John Saller",
+    "earnings": "$1M+ over the years",
+    "story": { "en": "Plastic novelty accessories shaped like bull testicles, hung from truck hitches. Despite (or because of) their absurdity, they became a cultural phenomenon across the American South and generated millions in sales." },
+    "lesson": { "en": "Never underestimate the power of tribal identity products. If a community loves something, the mainstream opinion doesn't matter." },
+    "tags": ["novelty", "subculture", "low-cost"]
+  },
+  {
+    "id": "potato_mail",
+    "emoji": "🥔",
+    "title": { "en": "Mail a Potato" },
+    "year": 2015,
+    "person": "Alex Craig (Potato Parcel)",
+    "earnings": "$25,000/month",
+    "story": { "en": "A 24-year-old started a service where people could mail an anonymous potato with a custom message written on it. Featured on Shark Tank, it now ships thousands of potatoes monthly as gag gifts." },
+    "lesson": { "en": "The gift market runs on emotions, not logic. People pay for the surprise and the story, not the object." },
+    "tags": ["gifts", "humor", "ecommerce"]
+  },
+  {
+    "id": "iamrich_app",
+    "emoji": "💎",
+    "title": { "en": "I Am Rich App" },
+    "year": 2008,
+    "person": "Armin Heinrich",
+    "earnings": "$5,600 in one day",
+    "story": { "en": "An iPhone app that cost $999.99 and did absolutely nothing except display a glowing red gem. Apple removed it within a day, but not before 8 people actually bought it. It sparked a debate about digital status symbols." },
+    "lesson": { "en": "Status and exclusivity have real market value. People buy identity, not just utility — a principle luxury brands have always known." },
+    "tags": ["status", "digital", "luxury"]
+  },
+  {
+    "id": "wish_bone",
+    "emoji": "🦴",
+    "title": { "en": "Lucky Break Wishbones" },
+    "year": 1999,
+    "person": "Ken Ahroni",
+    "earnings": "$2.5M+ annually",
+    "story": { "en": "Tired of only one person getting to break the Thanksgiving wishbone, Ken created plastic wishbones that always break with one side longer. What sounded ridiculous became a staple at holiday tables, selling millions per year." },
+    "lesson": { "en": "Solving tiny everyday frustrations — even silly ones — can build a real business. Never dismiss a problem because it seems too small." },
+    "tags": ["holiday", "consumer", "niche"]
+  },
+  {
+    "id": "grass_flip_flops",
+    "emoji": "🩴",
+    "title": { "en": "KUSA Grass Flip Flops" },
+    "year": 2011,
+    "person": "Krishan Arora",
+    "earnings": "$1.6M on Shark Tank deal",
+    "story": { "en": "Flip flops with synthetic grass on top so you always feel like you're walking on a lawn. Investors initially mocked it, then fought over it on Shark Tank. They sold out repeatedly and became a summer hit." },
+    "lesson": { "en": "Products that trigger a sensory experience sell themselves. The feeling IS the product." },
+    "tags": ["sensation", "novelty", "seasonal"]
+  },
+  {
+    "id": "antenna_balls",
+    "emoji": "🔴",
+    "title": { "en": "Jack in the Box Antenna Balls" },
+    "year": 1995,
+    "person": "Jack in the Box (company)",
+    "earnings": "$30M+ in indirect brand value",
+    "story": { "en": "After a food safety scandal nearly destroyed the brand, Jack in the Box gave away foam antenna balls shaped like their mascot's head. They became a cultural icon, turning millions of cars into free billboards and saving the entire brand." },
+    "lesson": { "en": "A near-fatal crisis can become your greatest marketing opportunity — if you respond with creativity instead of fear." },
+    "tags": ["branding", "crisis", "free-marketing"]
+  }
+]

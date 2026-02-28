@@ -1379,6 +1379,139 @@ a.card {
 }
 
 /* ==========================================================================
+   15b. STORIES PAGE
+   ========================================================================== */
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.story-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.story-card:hover {
+    box-shadow: 0 4px 16px rgba(0,105,92,0.12);
+    transform: translateY(-2px);
+}
+
+.story-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.story-emoji {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.story-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--mc-dark);
+}
+
+.story-meta {
+    font-size: 0.85rem;
+    color: var(--text-gray);
+    margin-top: 0.15rem;
+}
+
+.story-earnings {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--mc-safe);
+    margin-top: 0.15rem;
+}
+
+.story-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.story-lesson {
+    font-size: 0.9rem;
+    background: var(--mc-bg);
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--mc-accent);
+    line-height: 1.5;
+}
+
+/* ==========================================================================
+   15c. MINDSET PAGE
+   ========================================================================== */
+.mindset-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.5rem;
+}
+
+.mindset-card {
+    background: var(--white);
+    border: 1px solid var(--border-gray);
+    border-radius: 12px;
+    padding: 1.5rem;
+    transition: box-shadow 0.3s, transform 0.2s;
+}
+
+.mindset-card:hover {
+    box-shadow: 0 4px 16px rgba(0,105,92,0.12);
+    transform: translateY(-2px);
+}
+
+.mindset-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.mindset-emoji {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.mindset-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--mc-dark);
+}
+
+.mindset-story {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.mindset-reality {
+    font-size: 0.9rem;
+    background: #fff3e0;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--mc-warning);
+    line-height: 1.5;
+    margin-bottom: 0.75rem;
+}
+
+.mindset-fix {
+    font-size: 0.9rem;
+    background: #e8f5e9;
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    border-left: 3px solid var(--mc-safe);
+    line-height: 1.5;
+}
+
+/* ==========================================================================
    16. WISDOM / BODY BOX (editorial sections)
    ========================================================================== */
 .wisdom-box {

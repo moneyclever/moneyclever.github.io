@@ -49,6 +49,8 @@ function detectPage() {
   if (path.includes('risk-calculator')) return 'risk-calculator';
   if (path.includes('thinkers')) return 'thinkers';
   if (path.includes('principles')) return 'principles';
+  if (path.includes('stories')) return 'stories';
+  if (path.includes('mindset')) return 'mindset';
   return 'index';
 }
 
@@ -66,7 +68,9 @@ function renderPage(page) {
     'quiz': renderQuiz,
     'risk-calculator': renderRiskCalculator,
     'thinkers': renderThinkers,
-    'principles': renderPrinciples
+    'principles': renderPrinciples,
+    'stories': renderStories,
+    'mindset': renderMindset
   };
   if (renderers[page]) renderers[page]();
 }
@@ -296,8 +300,8 @@ function renderIndex() {
       { href: 'thinkers.html', icon: '\ud83e\udde0', key: 'nav.thinkers' },
       { href: 'principles.html', icon: '\ud83d\udcdc', key: 'nav.principles' },
       { href: 'risk-calculator.html', icon: '\ud83e\uddee', key: 'nav.risk_calculator' },
-      { href: 'compare.html', icon: '\u2696\ufe0f', key: 'nav.compare' },
-      { href: 'quiz.html', icon: '\ud83c\udfc6', key: 'nav.quiz' }
+      { href: 'stories.html', icon: '\ud83e\udd2f', key: 'nav.stories' },
+      { href: 'mindset.html', icon: '\ud83d\udca1', key: 'nav.mindset' }
     ].map(item => `<a href="${item.href}" class="wisdom-library-card">${item.icon} ${_t(item.key)}</a>`).join('');
   }
 
@@ -1316,4 +1320,104 @@ function renderPrinciples() {
       `).join('')}
     </div>
   `;
+}
+
+/* ========== RENDER: STRANGE SUCCESS STORIES ========== */
+function renderStories() {
+  const el = document.getElementById('stories-content');
+  if (!el) return;
+
+  const lang = I18n.getLang();
+  const stories = Data.getStories();
+
+  el.innerHTML = `
+    ${_backLink()}
+    <h1>${_t('stories.title')}</h1>
+    <p class="section-subtitle">${_t('stories.subtitle')}</p>
+
+    <div class="stories-grid">
+      ${stories.map(s => {
+        const title = (s.title && s.title[lang]) || s.title.en;
+        const story = (s.story && s.story[lang]) || s.story.en;
+        const lesson = (s.lesson && s.lesson[lang]) || s.lesson.en;
+        const tags = (s.tags || []).map(t => `<span class="featured-tag">${t}</span>`).join('');
+        return `
+          <div class="story-card">
+            <div class="story-header">
+              <span class="story-emoji">${s.emoji}</span>
+              <div>
+                <div class="story-title">${title}</div>
+                <div class="story-meta">${s.person} · ${s.year}</div>
+                <div class="story-earnings">${s.earnings}</div>
+              </div>
+            </div>
+            <div class="story-text">${story}</div>
+            <div class="story-lesson">
+              <strong>${_t('stories.lesson')}:</strong> ${lesson}
+            </div>
+            <div class="featured-tags" style="margin-top:0.5rem">${tags}</div>
+          </div>`;
+      }).join('')}
+    </div>
+  `;
+}
+
+/* ========== RENDER: MONEY VS WEALTH (MINDSET) ========== */
+function renderMindset() {
+  const el = document.getElementById('mindset-content');
+  if (!el) return;
+
+  const lang = I18n.getLang();
+  const items = Data.getMindset();
+  const cats = [...new Set(items.map(m => m.category))];
+  let activeFilter = 'all';
+
+  function render() {
+    const filtered = activeFilter === 'all' ? items : items.filter(m => m.category === activeFilter);
+
+    el.innerHTML = `
+      ${_backLink()}
+      <h1>${_t('mindset.title')}</h1>
+      <p class="section-subtitle">${_t('mindset.subtitle')}</p>
+
+      <div style="display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:2rem">
+        <button class="btn ${activeFilter === 'all' ? 'btn-primary' : ''}" data-mfilter="all">${_t('thinkers.filter_all')}</button>
+        ${cats.map(c => `<button class="btn ${activeFilter === c ? 'btn-primary' : ''}" data-mfilter="${c}">${_t('mindset.cat.' + c)}</button>`).join('')}
+      </div>
+
+      <div class="mindset-grid">
+        ${filtered.map(m => {
+          const title = (m.title && m.title[lang]) || m.title.en;
+          const story = (m.story && m.story[lang]) || m.story.en;
+          const reality = (m.reality_check && m.reality_check[lang]) || m.reality_check.en;
+          const fix = (m.mindset_fix && m.mindset_fix[lang]) || m.mindset_fix.en;
+          const tags = (m.tags || []).map(t => `<span class="featured-tag">${t}</span>`).join('');
+          return `
+            <div class="mindset-card">
+              <div class="mindset-header">
+                <span class="mindset-emoji">${m.emoji}</span>
+                <span class="mindset-title">${title}</span>
+              </div>
+              <div class="mindset-story">${story}</div>
+              <div class="mindset-reality">
+                <strong>${_t('mindset.reality_check')}:</strong> ${reality}
+              </div>
+              <div class="mindset-fix">
+                <strong>${_t('mindset.mindset_fix')}:</strong> ${fix}
+              </div>
+              <div class="featured-tags" style="margin-top:0.5rem">${tags}</div>
+            </div>`;
+        }).join('')}
+      </div>
+    `;
+
+    el.querySelectorAll('[data-mfilter]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        activeFilter = btn.dataset.mfilter;
+        render();
+      });
+    });
+  }
+
+  render();
 }

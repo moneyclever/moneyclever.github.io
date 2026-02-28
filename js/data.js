@@ -8,6 +8,8 @@ const Data = (() => {
   let _benefits = null;
   let _thinkers = null;
   let _principles = null;
+  let _stories = null;
+  let _mindset = null;
 
   async function _load(url) {
     const resp = await fetch(url);
@@ -21,18 +23,22 @@ const Data = (() => {
 
   async function init() {
     if (!_strategies || !_categories) {
-      const [strategies, categories, benefits, thinkers, principles] = await Promise.all([
+      const [strategies, categories, benefits, thinkers, principles, stories, mindset] = await Promise.all([
         _load('data/strategies.json'),
         _load('data/categories.json'),
         _loadSafe('data/benefits.json'),
         _loadSafe('data/thinkers.json'),
-        _loadSafe('data/principles.json')
+        _loadSafe('data/principles.json'),
+        _loadSafe('data/stories.json'),
+        _loadSafe('data/mindset.json')
       ]);
       _strategies = strategies;
       _categories = categories;
       _benefits = benefits;
       _thinkers = thinkers;
       _principles = principles;
+      _stories = stories;
+      _mindset = mindset;
     }
   }
 
@@ -114,6 +120,9 @@ const Data = (() => {
   function getPrinciples() { return _principles || []; }
   function getPrinciple(id) { return (_principles || []).find(p => p.id === id) || null; }
 
+  function getStories() { return _stories || []; }
+  function getMindset() { return _mindset || []; }
+
   // Top strategies
   function getTopByEvidence(limit) {
     return getAllStrategies().filter(s => s.evidence_rating > 0)
@@ -140,6 +149,7 @@ const Data = (() => {
     getCapitalLabel, getEvidenceLabel, getEvidenceColor,
     getThinkers, getThinker, getThinkersByCategory,
     getPrinciples, getPrinciple,
+    getStories, getMindset,
     getTopByEvidence, getTopByPassive, getMostAccessible
   };
 })();
