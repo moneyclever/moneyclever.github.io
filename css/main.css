@@ -1431,7 +1431,7 @@ a.card {
 .author-info-balloon {
     display: none;
     position: absolute;
-    bottom: calc(100% + 10px);
+    top: calc(100% + 10px);
     left: 50%;
     transform: translateX(-50%);
     background: var(--mc-dark);
@@ -1451,11 +1451,11 @@ a.card {
 .author-info-balloon::after {
     content: '';
     position: absolute;
-    top: 100%;
+    bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
     border: 6px solid transparent;
-    border-top-color: var(--mc-dark);
+    border-bottom-color: var(--mc-dark);
 }
 
 .author-info-trigger:hover .author-info-balloon,

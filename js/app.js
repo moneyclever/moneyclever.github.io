@@ -1260,7 +1260,7 @@ function renderThinkers() {
             <div class="thinker-header">
               <span class="thinker-emoji">${t.emoji}</span>
               <div>
-                <div class="thinker-name">${t.name}</div>
+                <div class="thinker-name">${t.name} <span class="author-info-trigger" tabindex="0" aria-label="About ${t.name}">ℹ️<span class="author-info-balloon"><strong>${t.name}</strong> (${t.years})<br>${t.tradition} · ${t.origin}<br><em>${t.relevance}</em></span></span></div>
                 <div class="thinker-years">${t.years} | ${t.origin}</div>
                 <div class="thinker-tradition">${t.tradition}</div>
               </div>
