@@ -284,7 +284,7 @@ function renderIndex() {
       const thinker = thinkers[dayIdx];
       quoteBox.innerHTML = `<div class="daily-quote-box">
         <div class="daily-quote-text">"${thinker.quote}"</div>
-        <div class="daily-quote-author">— ${thinker.name}</div>
+        <div class="daily-quote-author">— ${thinker.name} <span class="author-info-trigger" tabindex="0" aria-label="About ${thinker.name}">ℹ️<span class="author-info-balloon"><strong>${thinker.name}</strong> (${thinker.years})<br>${thinker.tradition} · ${thinker.origin}<br><em>${thinker.relevance}</em></span></span></div>
       </div>`;
     }
   }
@@ -326,10 +326,12 @@ function renderIndex() {
 
     featuredCards.innerHTML = featured.map(s => {
       const catColor = _categoryColor(s.category);
+      const tags = (s.tags || []).slice(0, 3).map(t => `<span class="featured-tag">${t}</span>`).join('');
       return `<a href="strategy-detail.html?id=${s.id}" class="card featured-card" style="border-left-color:${catColor}">
         <span class="card-icon">${s.emoji || ''}</span>
         <div>
           <span class="card-title">${_strategyName(s)}</span>
+          <div class="featured-tags">${tags}</div>
           <div style="margin-top:0.3rem">${_riskBadge(s.risk_level)} ${_difficultyBadge(s.difficulty)}</div>
         </div>
       </a>`;

@@ -522,6 +522,22 @@ a.card {
     font-size: 0.92rem;
 }
 
+.featured-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+.featured-tag {
+    font-size: 0.7rem;
+    background: var(--mc-bg);
+    color: var(--mc-dark);
+    padding: 0.1rem 0.45rem;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
 .fun-fact-card .card-description {
     font-size: 0.95rem;
     -webkit-line-clamp: unset;
@@ -1404,6 +1420,49 @@ a.card {
     color: var(--text-gray);
 }
 
+.author-info-trigger {
+    position: relative;
+    cursor: pointer;
+    font-size: 0.85rem;
+    vertical-align: middle;
+    margin-left: 0.3rem;
+}
+
+.author-info-balloon {
+    display: none;
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--mc-dark);
+    color: var(--white);
+    padding: 0.8rem 1rem;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: left;
+    width: 300px;
+    max-width: 90vw;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    z-index: 2000;
+}
+
+.author-info-balloon::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 6px solid transparent;
+    border-top-color: var(--mc-dark);
+}
+
+.author-info-trigger:hover .author-info-balloon,
+.author-info-trigger:focus .author-info-balloon {
+    display: block;
+}
+
 /* Wisdom library grid (nav cards) */
 .wisdom-library-grid {
     display: grid;
@@ -1840,6 +1899,15 @@ a.card {
 [dir="rtl"] .daily-quote-box {
     border-left: none;
     border-right: 4px solid var(--mc-accent);
+}
+
+[dir="rtl"] .author-info-trigger {
+    margin-left: 0;
+    margin-right: 0.3rem;
+}
+
+[dir="rtl"] .author-info-balloon {
+    text-align: right;
 }
 
 [dir="rtl"] .thinker-quote {
