@@ -383,5 +383,10 @@
   "principle.multiple_streams": "Multiple Income Streams",
   "principle.multiple_streams.desc": "Don't rely on a single source of income. Build multiple streams for security and growth.",
   "principle.multiple_streams.quote": "Never depend on a single income. Make investments to create a second source. — Warren Buffett",
-  "principle.multiple_streams.explanation": "The average millionaire has 7 income streams. Start with your job, add investments, then a side hustle. Each stream adds both income and security."
+  "principle.multiple_streams.explanation": "The average millionaire has 7 income streams. Start with your job, add investments, then a side hustle. Each stream adds both income and security.",
+
+  "updates.title": "What's New",
+  "updates.subtitle": "Latest additions and improvements",
+  "updates.mar2026.title": "Site Launch",
+  "updates.mar2026.desc": "MoneyClever is live — explore 108 financial strategies, compare approaches, and test your knowledge."
 }

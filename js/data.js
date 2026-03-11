@@ -137,6 +137,17 @@ const Data = (() => {
       .sort((a, b) => a.risk_level - b.risk_level).slice(0, limit || 10);
   }
 
+  // Monthly updates (auto-hides entries older than 2 months)
+  const _updates = [
+    { id: 'mar2026', date: '2026-03-01', icon: '\u{1F4B0}', titleKey: 'updates.mar2026.title', descKey: 'updates.mar2026.desc' }
+  ];
+
+  function getUpdates() {
+    const now = new Date();
+    const cutoff = new Date(now.getFullYear(), now.getMonth() - 2, 1);
+    return _updates.filter(u => new Date(u.date) >= cutoff);
+  }
+
   return {
     init,
     getAllStrategies, getStrategy, getStrategiesByCategory, getStrategiesByTag,
@@ -150,6 +161,7 @@ const Data = (() => {
     getThinkers, getThinker, getThinkersByCategory,
     getPrinciples, getPrinciple,
     getStories, getMindset,
-    getTopByEvidence, getTopByPassive, getMostAccessible
+    getTopByEvidence, getTopByPassive, getMostAccessible,
+    getUpdates
   };
 })();
