@@ -2,121 +2,271 @@
   {
     "id": "lifestyle_inflation",
     "emoji": "🎢",
-    "title": { "en": "The Lifestyle Inflation Trap" },
+    "title": {
+      "en": "The Lifestyle Inflation Trap"
+    },
     "category": "trap",
-    "story": { "en": "A doctor earning $300,000/year has $2,000 in savings. A janitor earning $35,000/year retires a millionaire. This happens more often than you think. Every raise triggers lifestyle inflation — bigger house, nicer car, more subscriptions — until expenses permanently match income." },
-    "reality_check": { "en": "70% of high-income earners live paycheck to paycheck. Income is not wealth. The gap between what you earn and what you spend is." },
-    "mindset_fix": { "en": "The Wealth Formula: Wealth = (Income − Expenses) × Time × Returns. A raise only builds wealth if your expenses don't rise with it." },
-    "tags": ["spending", "high-income", "trap"]
+    "story": {
+      "en": "A doctor earning $300,000/year has $2,000 in savings. A janitor earning $35,000/year retires a millionaire. This happens more often than you think. Every raise triggers lifestyle inflation — bigger house, nicer car, more subscriptions — until expenses permanently match income."
+    },
+    "reality_check": {
+      "en": "70% of high-income earners live paycheck to paycheck. Income is not wealth. The gap between what you earn and what you spend is."
+    },
+    "mindset_fix": {
+      "en": "The Wealth Formula: Wealth = (Income − Expenses) × Time × Returns. A raise only builds wealth if your expenses don't rise with it."
+    },
+    "tags": [
+      "spending",
+      "high-income",
+      "trap"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Life_style_of_the_wealthy_%2823173133911%29.jpg/400px-Life_style_of_the_wealthy_%2823173133911%29.jpg"
   },
   {
     "id": "lottery_curse",
     "emoji": "🎰",
-    "title": { "en": "The Lottery Winner's Curse" },
+    "title": {
+      "en": "The Lottery Winner's Curse"
+    },
     "category": "trap",
-    "story": { "en": "About 70% of lottery winners go broke within 5 years. Jack Whittaker won $315 million in 2002 — within 4 years he'd been robbed, arrested, and lost everything. Evelyn Adams won the lottery TWICE ($5.4 million) and ended up living in a trailer." },
-    "reality_check": { "en": "Sudden money without financial literacy is like giving a teenager a Ferrari. Speed without skill ends in a crash." },
-    "mindset_fix": { "en": "Money is a tool that amplifies who you already are. Without the mindset to manage it, more money just means faster failure." },
-    "tags": ["lottery", "windfall", "financial-literacy"]
+    "story": {
+      "en": "About 70% of lottery winners go broke within 5 years. Jack Whittaker won $315 million in 2002 — within 4 years he'd been robbed, arrested, and lost everything. Evelyn Adams won the lottery TWICE ($5.4 million) and ended up living in a trailer."
+    },
+    "reality_check": {
+      "en": "Sudden money without financial literacy is like giving a teenager a Ferrari. Speed without skill ends in a crash."
+    },
+    "mindset_fix": {
+      "en": "Money is a tool that amplifies who you already are. Without the mindset to manage it, more money just means faster failure."
+    },
+    "tags": [
+      "lottery",
+      "windfall",
+      "financial-literacy"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Texas_Lottery_drawing.jpg/400px-Texas_Lottery_drawing.jpg"
   },
   {
     "id": "keeping_up_appearances",
     "emoji": "🏎️",
-    "title": { "en": "Keeping Up With the Joneses" },
+    "title": {
+      "en": "Keeping Up With the Joneses"
+    },
     "category": "trap",
-    "story": { "en": "Your neighbor buys a BMW. You feel pressure to upgrade your car. Their kid goes to private school. You consider it too. This comparison spiral is the #1 wealth destroyer in developed countries. The irony? The Joneses are usually in debt too." },
-    "reality_check": { "en": "The average American household with income over $100K carries $12,000+ in credit card debt. Most visible wealth is financed, not owned." },
-    "mindset_fix": { "en": "Real wealth is invisible. The truly wealthy don't need to show it. Compare yourself to your past self, not your neighbor's Instagram." },
-    "tags": ["comparison", "debt", "social-pressure"]
+    "story": {
+      "en": "Your neighbor buys a BMW. You feel pressure to upgrade your car. Their kid goes to private school. You consider it too. This comparison spiral is the #1 wealth destroyer in developed countries. The irony? The Joneses are usually in debt too."
+    },
+    "reality_check": {
+      "en": "The average American household with income over $100K carries $12,000+ in credit card debt. Most visible wealth is financed, not owned."
+    },
+    "mindset_fix": {
+      "en": "Real wealth is invisible. The truly wealthy don't need to show it. Compare yourself to your past self, not your neighbor's Instagram."
+    },
+    "tags": [
+      "comparison",
+      "debt",
+      "social-pressure"
+    ]
   },
   {
     "id": "instant_gratification",
     "emoji": "🍬",
-    "title": { "en": "The Marshmallow Problem" },
+    "title": {
+      "en": "The Marshmallow Problem"
+    },
     "category": "psychology",
-    "story": { "en": "Stanford's famous marshmallow experiment showed that children who could delay gratification became more successful adults. The same applies to money: choosing to invest $500/month instead of spending it on impulses can mean the difference between $0 and $500,000 over 20 years." },
-    "reality_check": { "en": "The average person spends $1,500/year on impulse purchases. Over 30 years at 8% returns, that's $170,000 in lost wealth — from coffees, gadgets, and 'small' treats alone." },
-    "mindset_fix": { "en": "Ask the 10-10-10 question: How will I feel about this purchase in 10 minutes? 10 months? 10 years?" },
-    "tags": ["psychology", "delayed-gratification", "impulse"]
+    "story": {
+      "en": "Stanford's famous marshmallow experiment showed that children who could delay gratification became more successful adults. The same applies to money: choosing to invest $500/month instead of spending it on impulses can mean the difference between $0 and $500,000 over 20 years."
+    },
+    "reality_check": {
+      "en": "The average person spends $1,500/year on impulse purchases. Over 30 years at 8% returns, that's $170,000 in lost wealth — from coffees, gadgets, and 'small' treats alone."
+    },
+    "mindset_fix": {
+      "en": "Ask the 10-10-10 question: How will I feel about this purchase in 10 minutes? 10 months? 10 years?"
+    },
+    "tags": [
+      "psychology",
+      "delayed-gratification",
+      "impulse"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Marshmallows.JPG/400px-Marshmallows.JPG"
   },
   {
     "id": "time_blindness",
     "emoji": "⏳",
-    "title": { "en": "Ignoring the Power of Time" },
+    "title": {
+      "en": "Ignoring the Power of Time"
+    },
     "category": "psychology",
-    "story": { "en": "If you invest $200/month starting at age 25, you'll have ~$525,000 by 65 (at 8% return). Start at 35? You'll have ~$225,000. Same monthly amount, but waiting 10 years costs you $300,000. Yet most people say 'I'll start investing when I earn more.'" },
-    "reality_check": { "en": "The #1 regret of retirees: 'I wish I had started earlier.' Not 'I wish I had earned more.' Time is the most powerful wealth-building tool, and the only one you can never get back." },
-    "mindset_fix": { "en": "The best time to start was yesterday. The second best time is today. Even $50/month matters when time is on your side." },
-    "tags": ["compound-interest", "time", "procrastination"]
+    "story": {
+      "en": "If you invest $200/month starting at age 25, you'll have ~$525,000 by 65 (at 8% return). Start at 35? You'll have ~$225,000. Same monthly amount, but waiting 10 years costs you $300,000. Yet most people say 'I'll start investing when I earn more.'"
+    },
+    "reality_check": {
+      "en": "The #1 regret of retirees: 'I wish I had started earlier.' Not 'I wish I had earned more.' Time is the most powerful wealth-building tool, and the only one you can never get back."
+    },
+    "mindset_fix": {
+      "en": "The best time to start was yesterday. The second best time is today. Even $50/month matters when time is on your side."
+    },
+    "tags": [
+      "compound-interest",
+      "time",
+      "procrastination"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Compound_interest_%28English%29.gif/400px-Compound_interest_%28English%29.gif"
   },
   {
     "id": "fear_of_investing",
     "emoji": "😨",
-    "title": { "en": "The Fear of Losing Money" },
+    "title": {
+      "en": "The Fear of Losing Money"
+    },
     "category": "psychology",
-    "story": { "en": "Millions of people keep their savings in checking accounts earning 0.01% while inflation runs at 3-5%. They feel 'safe' but are guaranteed to lose purchasing power. Keeping $50,000 in cash for 20 years at 3% inflation means it's worth only $27,000 in today's money." },
-    "reality_check": { "en": "Not investing IS a financial decision — and it's one of the worst. The 'safety' of cash is an illusion when inflation silently eats your savings every single day." },
-    "mindset_fix": { "en": "Risk is not just losing money — it's also missing opportunity. The riskiest thing you can do is nothing." },
-    "tags": ["fear", "inflation", "inaction"]
+    "story": {
+      "en": "Millions of people keep their savings in checking accounts earning 0.01% while inflation runs at 3-5%. They feel 'safe' but are guaranteed to lose purchasing power. Keeping $50,000 in cash for 20 years at 3% inflation means it's worth only $27,000 in today's money."
+    },
+    "reality_check": {
+      "en": "Not investing IS a financial decision — and it's one of the worst. The 'safety' of cash is an illusion when inflation silently eats your savings every single day."
+    },
+    "mindset_fix": {
+      "en": "Risk is not just losing money — it's also missing opportunity. The riskiest thing you can do is nothing."
+    },
+    "tags": [
+      "fear",
+      "inflation",
+      "inaction"
+    ]
   },
   {
     "id": "get_rich_quick",
     "emoji": "🪤",
-    "title": { "en": "The Get-Rich-Quick Fantasy" },
+    "title": {
+      "en": "The Get-Rich-Quick Fantasy"
+    },
     "category": "trap",
-    "story": { "en": "Every year, millions lose money to crypto pump-and-dumps, MLMs, forex 'gurus', and meme stock hype. The pattern is always the same: a charismatic promoter, promises of 1000% returns, urgency to 'act now', and stories of regular people becoming millionaires overnight." },
-    "reality_check": { "en": "If someone's method truly generated guaranteed high returns, they'd use it themselves — not sell a $97 course about it. 95% of day traders lose money. 99% of MLM participants lose money." },
-    "mindset_fix": { "en": "Real wealth is boring. Index funds, compound interest, patience. The people selling excitement are profiting from your impatience." },
-    "tags": ["scams", "impatience", "hype"]
+    "story": {
+      "en": "Every year, millions lose money to crypto pump-and-dumps, MLMs, forex 'gurus', and meme stock hype. The pattern is always the same: a charismatic promoter, promises of 1000% returns, urgency to 'act now', and stories of regular people becoming millionaires overnight."
+    },
+    "reality_check": {
+      "en": "If someone's method truly generated guaranteed high returns, they'd use it themselves — not sell a $97 course about it. 95% of day traders lose money. 99% of MLM participants lose money."
+    },
+    "mindset_fix": {
+      "en": "Real wealth is boring. Index funds, compound interest, patience. The people selling excitement are profiting from your impatience."
+    },
+    "tags": [
+      "scams",
+      "impatience",
+      "hype"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Kopit_and_Keepit_Mining_Company_Stocks_-_Postcard.jpg/400px-Kopit_and_Keepit_Mining_Company_Stocks_-_Postcard.jpg"
   },
   {
     "id": "single_income_dependency",
     "emoji": "🧵",
-    "title": { "en": "The One-Paycheck Life" },
+    "title": {
+      "en": "The One-Paycheck Life"
+    },
     "category": "trap",
-    "story": { "en": "Most people rely on a single employer for 100% of their income. When that job disappears — as it did for millions during COVID — they go from comfortable to desperate in weeks. The average American can't cover a $400 emergency." },
-    "reality_check": { "en": "The average millionaire has 7 income streams. Not because they're greedy, but because they understand that dependency is the opposite of freedom." },
-    "mindset_fix": { "en": "Your job is your starting point, not your ceiling. Use your stable income to fund side projects, investments, or skills that create additional streams." },
-    "tags": ["diversification", "income-streams", "security"]
+    "story": {
+      "en": "Most people rely on a single employer for 100% of their income. When that job disappears — as it did for millions during COVID — they go from comfortable to desperate in weeks. The average American can't cover a $400 emergency."
+    },
+    "reality_check": {
+      "en": "The average millionaire has 7 income streams. Not because they're greedy, but because they understand that dependency is the opposite of freedom."
+    },
+    "mindset_fix": {
+      "en": "Your job is your starting point, not your ceiling. Use your stable income to fund side projects, investments, or skills that create additional streams."
+    },
+    "tags": [
+      "diversification",
+      "income-streams",
+      "security"
+    ]
   },
   {
     "id": "education_myth",
     "emoji": "🎓",
-    "title": { "en": "The 'Good Job' Myth" },
+    "title": {
+      "en": "The 'Good Job' Myth"
+    },
     "category": "mindset",
-    "story": { "en": "We're taught: get good grades → get into a good university → get a good job → retire happy. But this linear path was designed for the industrial age. Today, student debt averages $37,000, many graduates can't find work in their field, and 'good jobs' rarely lead to wealth — they lead to comfortable consumption." },
-    "reality_check": { "en": "A degree is not a financial plan. The highest-paid employees are still employees. Financial literacy is not taught in any school curriculum." },
-    "mindset_fix": { "en": "Education is valuable, but financial education is essential. Learn both how to earn AND how to build. Nobody gets wealthy from a salary alone." },
-    "tags": ["education", "employment", "system"]
+    "story": {
+      "en": "We're taught: get good grades → get into a good university → get a good job → retire happy. But this linear path was designed for the industrial age. Today, student debt averages $37,000, many graduates can't find work in their field, and 'good jobs' rarely lead to wealth — they lead to comfortable consumption."
+    },
+    "reality_check": {
+      "en": "A degree is not a financial plan. The highest-paid employees are still employees. Financial literacy is not taught in any school curriculum."
+    },
+    "mindset_fix": {
+      "en": "Education is valuable, but financial education is essential. Learn both how to earn AND how to build. Nobody gets wealthy from a salary alone."
+    },
+    "tags": [
+      "education",
+      "employment",
+      "system"
+    ]
   },
   {
     "id": "money_taboo",
     "emoji": "🤐",
-    "title": { "en": "The Taboo of Talking About Money" },
+    "title": {
+      "en": "The Taboo of Talking About Money"
+    },
     "category": "mindset",
-    "story": { "en": "In most cultures, talking about money is considered rude. This taboo means that financial mistakes get repeated generation after generation. Parents don't teach kids about investing. Friends don't share salary information. Nobody discusses debt until it's a crisis." },
-    "reality_check": { "en": "Countries with more financial openness (Nordic countries, Switzerland) have higher savings rates and lower household debt. Silence about money benefits only those who profit from your ignorance." },
-    "mindset_fix": { "en": "Break the taboo. Talk to your partner about money. Teach your children. Ask your friends. Financial literacy spreads through conversation, not silence." },
-    "tags": ["culture", "communication", "family"]
+    "story": {
+      "en": "In most cultures, talking about money is considered rude. This taboo means that financial mistakes get repeated generation after generation. Parents don't teach kids about investing. Friends don't share salary information. Nobody discusses debt until it's a crisis."
+    },
+    "reality_check": {
+      "en": "Countries with more financial openness (Nordic countries, Switzerland) have higher savings rates and lower household debt. Silence about money benefits only those who profit from your ignorance."
+    },
+    "mindset_fix": {
+      "en": "Break the taboo. Talk to your partner about money. Teach your children. Ask your friends. Financial literacy spreads through conversation, not silence."
+    },
+    "tags": [
+      "culture",
+      "communication",
+      "family"
+    ]
   },
   {
     "id": "rich_vs_wealthy",
     "emoji": "💰",
-    "title": { "en": "Rich vs. Wealthy — The Critical Difference" },
+    "title": {
+      "en": "Rich vs. Wealthy — The Critical Difference"
+    },
     "category": "mindset",
-    "story": { "en": "Mike Tyson earned $400 million and went bankrupt. MC Hammer earned $33 million and lost it all. Meanwhile, a quiet teacher named Sylvia Bloom secretly accumulated $9 million through decades of modest investing. Rich means high income. Wealthy means your money works for you while you sleep." },
-    "reality_check": { "en": "Rich is a number on your paycheck. Wealthy is never having to look at your paycheck again. 78% of NFL players go bankrupt within 5 years of retirement despite earning millions." },
-    "mindset_fix": { "en": "Don't aim to be rich. Aim to be free. Wealth = passive income that exceeds your expenses. That's the only number that matters." },
-    "tags": ["wealth", "freedom", "passive-income"]
+    "story": {
+      "en": "Mike Tyson earned $400 million and went bankrupt. MC Hammer earned $33 million and lost it all. Meanwhile, a quiet teacher named Sylvia Bloom secretly accumulated $9 million through decades of modest investing. Rich means high income. Wealthy means your money works for you while you sleep."
+    },
+    "reality_check": {
+      "en": "Rich is a number on your paycheck. Wealthy is never having to look at your paycheck again. 78% of NFL players go bankrupt within 5 years of retirement despite earning millions."
+    },
+    "mindset_fix": {
+      "en": "Don't aim to be rich. Aim to be free. Wealth = passive income that exceeds your expenses. That's the only number that matters."
+    },
+    "tags": [
+      "wealth",
+      "freedom",
+      "passive-income"
+    ],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/World_map_of_median_wealth_per_adult_by_country._Credit_Suisse._2021_publication.png/400px-World_map_of_median_wealth_per_adult_by_country._Credit_Suisse._2021_publication.png"
   },
   {
     "id": "emotional_spending",
     "emoji": "🛒",
-    "title": { "en": "Spending to Feel Better" },
+    "title": {
+      "en": "Spending to Feel Better"
+    },
     "category": "psychology",
-    "story": { "en": "Retail therapy is real — dopamine spikes when you buy something new. But the high lasts about 24 hours, while the credit card bill lasts 24 months. The average consumer has 80,000 items in their home, yet reports feeling 'they need more.'" },
-    "reality_check": { "en": "Emotional spending costs the average household $2,100/year. Companies spend $500 billion annually on advertising specifically designed to make you feel inadequate so you buy their solution." },
-    "mindset_fix": { "en": "Before every purchase, wait 48 hours. If you still want it, buy it. 70% of impulse purchases are regretted within a week. Your future self will thank your patience." },
-    "tags": ["emotions", "consumerism", "advertising"]
+    "story": {
+      "en": "Retail therapy is real — dopamine spikes when you buy something new. But the high lasts about 24 hours, while the credit card bill lasts 24 months. The average consumer has 80,000 items in their home, yet reports feeling 'they need more.'"
+    },
+    "reality_check": {
+      "en": "Emotional spending costs the average household $2,100/year. Companies spend $500 billion annually on advertising specifically designed to make you feel inadequate so you buy their solution."
+    },
+    "mindset_fix": {
+      "en": "Before every purchase, wait 48 hours. If you still want it, buy it. 70% of impulse purchases are regretted within a week. Your future self will thank your patience."
+    },
+    "tags": [
+      "emotions",
+      "consumerism",
+      "advertising"
+    ]
   }
 ]

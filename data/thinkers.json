@@ -13,9 +13,13 @@
       "Long-term holding beats frequent trading",
       "Circle of competence — invest in what you understand"
     ],
-    "key_works": ["Annual Berkshire Hathaway Letters", "The Snowball (biography)"],
+    "key_works": [
+      "Annual Berkshire Hathaway Letters",
+      "The Snowball (biography)"
+    ],
     "quote": "Rule No. 1: Never lose money. Rule No. 2: Never forget Rule No. 1.",
-    "relevance": "The most successful investor of all time. His value investing philosophy and folksy wisdom have guided generations of investors toward long-term thinking."
+    "relevance": "The most successful investor of all time. His value investing philosophy and folksy wisdom have guided generations of investors toward long-term thinking.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg/400px-Warren_Buffett_at_the_2015_SelectUSA_Investment_Summit_%28cropped%29.jpg"
   },
   {
     "id": "charlie_munger",
@@ -31,9 +35,14 @@
       "Patience and discipline are the investor's greatest tools",
       "Avoid stupidity rather than seeking brilliance"
     ],
-    "key_works": ["Poor Charlie's Almanack", "Berkshire Hathaway Annual Meeting Talks", "USC Law School Commencement Speech"],
+    "key_works": [
+      "Poor Charlie's Almanack",
+      "Berkshire Hathaway Annual Meeting Talks",
+      "USC Law School Commencement Speech"
+    ],
     "quote": "It is remarkable how much long-term advantage people like us have gotten by trying to be consistently not stupid, instead of trying to be very intelligent.",
-    "relevance": "Buffett's indispensable partner and the architect of multidisciplinary thinking in investing. His mental models framework influenced decision-making far beyond finance."
+    "relevance": "Buffett's indispensable partner and the architect of multidisciplinary thinking in investing. His mental models framework influenced decision-making far beyond finance.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Charlie_Munger_%28cropped%29.jpg/400px-Charlie_Munger_%28cropped%29.jpg"
   },
   {
     "id": "ray_dalio",
@@ -49,9 +58,14 @@
       "Diversify across uncorrelated assets for an all-weather portfolio",
       "Pain plus reflection equals progress"
     ],
-    "key_works": ["Principles: Life and Work", "Principles for Dealing with the Changing World Order", "How the Economic Machine Works"],
+    "key_works": [
+      "Principles: Life and Work",
+      "Principles for Dealing with the Changing World Order",
+      "How the Economic Machine Works"
+    ],
     "quote": "He who lives by the crystal ball will eat shattered glass.",
-    "relevance": "Founder of the world's largest hedge fund, Bridgewater Associates. His principles-based approach and macroeconomic frameworks have reshaped institutional investing."
+    "relevance": "Founder of the world's largest hedge fund, Bridgewater Associates. His principles-based approach and macroeconomic frameworks have reshaped institutional investing.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Web_Summit_2018_-_Forum_-_Day_2%2C_November_7_HM1_7481_%2844858045925%29.jpg/400px-Web_Summit_2018_-_Forum_-_Day_2%2C_November_7_HM1_7481_%2844858045925%29.jpg"
   },
   {
     "id": "benjamin_graham",
@@ -67,9 +81,14 @@
       "Distinguish between investment and speculation",
       "Thorough analysis of financial statements is essential"
     ],
-    "key_works": ["The Intelligent Investor", "Security Analysis", "The Interpretation of Financial Statements"],
+    "key_works": [
+      "The Intelligent Investor",
+      "Security Analysis",
+      "The Interpretation of Financial Statements"
+    ],
     "quote": "In the short run, the market is a voting machine but in the long run, it is a weighing machine.",
-    "relevance": "The father of value investing and security analysis. His frameworks for evaluating stocks remain the bedrock of fundamental analysis nearly a century later."
+    "relevance": "The father of value investing and security analysis. His frameworks for evaluating stocks remain the bedrock of fundamental analysis nearly a century later.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Benjamin_Graham_%281894-1976%29_portrait_on_23_March_1950.jpg/400px-Benjamin_Graham_%281894-1976%29_portrait_on_23_March_1950.jpg"
   },
   {
     "id": "peter_lynch",
@@ -85,7 +104,11 @@
       "Tenbaggers are found by patient, informed investors",
       "Know the story behind every stock you own"
     ],
-    "key_works": ["One Up on Wall Street", "Beating the Street", "Learn to Earn"],
+    "key_works": [
+      "One Up on Wall Street",
+      "Beating the Street",
+      "Learn to Earn"
+    ],
     "quote": "Know what you own, and know why you own it.",
     "relevance": "Managed the Magellan Fund to a 29% average annual return over 13 years. His accessible approach empowered individual investors to compete with professionals."
   },
@@ -103,9 +126,14 @@
       "Stay the course through market turbulence",
       "Simplicity beats complexity in investing"
     ],
-    "key_works": ["The Little Book of Common Sense Investing", "Bogle on Mutual Funds", "Enough: True Measures of Money, Business, and Life"],
+    "key_works": [
+      "The Little Book of Common Sense Investing",
+      "Bogle on Mutual Funds",
+      "Enough: True Measures of Money, Business, and Life"
+    ],
     "quote": "Don't look for the needle in the haystack. Just buy the haystack!",
-    "relevance": "Founder of Vanguard and creator of the first index fund for individual investors. He single-handedly saved investors trillions of dollars in unnecessary fees."
+    "relevance": "Founder of Vanguard and creator of the first index fund for individual investors. He single-handedly saved investors trillions of dollars in unnecessary fees.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Photo_of_a_John_C._Bogle_By_Bill_Cramer.jpg/400px-Photo_of_a_John_C._Bogle_By_Bill_Cramer.jpg"
   },
   {
     "id": "robert_kiyosaki",
@@ -121,9 +149,14 @@
       "The rich don't work for money — they make money work for them",
       "Pay yourself first, even when it feels uncomfortable"
     ],
-    "key_works": ["Rich Dad Poor Dad", "Cashflow Quadrant", "Rich Dad's Guide to Investing"],
+    "key_works": [
+      "Rich Dad Poor Dad",
+      "Cashflow Quadrant",
+      "Rich Dad's Guide to Investing"
+    ],
     "quote": "The single most powerful asset we all have is our mind. If it is trained well, it can create enormous wealth.",
-    "relevance": "Introduced millions of people worldwide to financial literacy through simple, compelling stories. His asset vs. liability framework changed how everyday people think about money."
+    "relevance": "Introduced millions of people worldwide to financial literacy through simple, compelling stories. His asset vs. liability framework changed how everyday people think about money.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Robert_Kiyosaki_%2853864555330%29_%28cropped%29.jpg/400px-Robert_Kiyosaki_%2853864555330%29_%28cropped%29.jpg"
   },
   {
     "id": "george_soros",
@@ -139,9 +172,14 @@
       "Survival comes first; profit comes second",
       "It's not whether you're right or wrong that matters, but how much you make when right"
     ],
-    "key_works": ["The Alchemy of Finance", "The New Paradigm for Financial Markets", "Soros on Soros"],
+    "key_works": [
+      "The Alchemy of Finance",
+      "The New Paradigm for Financial Markets",
+      "Soros on Soros"
+    ],
     "quote": "It's not whether you're right or wrong that's important, but how much money you make when you're right and how much you lose when you're wrong.",
-    "relevance": "Known as the man who broke the Bank of England. His theory of reflexivity challenged efficient market assumptions and revealed how perception shapes financial reality."
+    "relevance": "Known as the man who broke the Bank of England. His theory of reflexivity challenged efficient market assumptions and revealed how perception shapes financial reality.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/George_Soros%2C_Founder_and_Chairman_of_the_Open_Society_Foundations%2C_visits_the_EC_%283x4_cropped%29.jpg/400px-George_Soros%2C_Founder_and_Chairman_of_the_Open_Society_Foundations%2C_visits_the_EC_%283x4_cropped%29.jpg"
   },
   {
     "id": "nassim_taleb",
@@ -157,9 +195,14 @@
       "Skin in the game — never trust advice from those with nothing to lose",
       "Barbell strategy — combine extreme safety with small, high-upside bets"
     ],
-    "key_works": ["The Black Swan", "Antifragile", "Skin in the Game"],
+    "key_works": [
+      "The Black Swan",
+      "Antifragile",
+      "Skin in the Game"
+    ],
     "quote": "Wind extinguishes a candle and energizes fire. Likewise with randomness, uncertainty, chaos: you want to use them, not hide from them.",
-    "relevance": "Transformed how the world thinks about risk, uncertainty, and resilience. His concept of antifragility extends far beyond finance into philosophy and daily life."
+    "relevance": "Transformed how the world thinks about risk, uncertainty, and resilience. His concept of antifragility extends far beyond finance into philosophy and daily life.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Taleb_mug.JPG/400px-Taleb_mug.JPG"
   },
   {
     "id": "howard_marks",
@@ -175,9 +218,14 @@
       "Risk means more things can happen than will happen",
       "The most profitable investments are uncomfortable to make"
     ],
-    "key_works": ["The Most Important Thing", "Mastering the Market Cycle", "Oaktree Capital Memos"],
+    "key_works": [
+      "The Most Important Thing",
+      "Mastering the Market Cycle",
+      "Oaktree Capital Memos"
+    ],
     "quote": "You can't predict. You can prepare.",
-    "relevance": "Co-founder of Oaktree Capital and master of distressed debt investing. His memos on market cycles and risk are considered essential reading on Wall Street."
+    "relevance": "Co-founder of Oaktree Capital and master of distressed debt investing. His memos on market cycles and risk are considered essential reading on Wall Street.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Howard_Marks_2.17.12_%28cropped%29.jpg/400px-Howard_Marks_2.17.12_%28cropped%29.jpg"
   },
   {
     "id": "carl_icahn",
@@ -193,9 +241,14 @@
       "Challenge entrenched boards to drive corporate accountability",
       "Buy undervalued assets and push for structural change"
     ],
-    "key_works": ["Icahn: The Restless Billionaire (documentary)", "SEC Filings and Public Letters to Boards", "Interviews on Corporate Governance"],
+    "key_works": [
+      "Icahn: The Restless Billionaire (documentary)",
+      "SEC Filings and Public Letters to Boards",
+      "Interviews on Corporate Governance"
+    ],
     "quote": "In life and business, there are two cardinal sins. The first is to act precipitously without thought, and the second is to not act at all.",
-    "relevance": "The original corporate raider turned shareholder advocate. His aggressive activist style forced corporate America to take shareholder value seriously."
+    "relevance": "The original corporate raider turned shareholder advocate. His aggressive activist style forced corporate America to take shareholder value seriously.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Carl_Icahn%2C_1980s.jpg/400px-Carl_Icahn%2C_1980s.jpg"
   },
   {
     "id": "paul_tudor_jones",
@@ -211,9 +264,14 @@
       "The most important rule of trading is to play great defense",
       "Never average losers — cut losses quickly and let winners run"
     ],
-    "key_works": ["Market Wizards (interview)", "Tudor Investment Corp Letters", "Trader (documentary)"],
+    "key_works": [
+      "Market Wizards (interview)",
+      "Tudor Investment Corp Letters",
+      "Trader (documentary)"
+    ],
     "quote": "The secret to being successful from a trading perspective is to have an indefatigable and an undying and unquenchable thirst for information and knowledge.",
-    "relevance": "Predicted and profited from the 1987 Black Monday crash. His macro trading approach and emphasis on risk management set the standard for hedge fund traders."
+    "relevance": "Predicted and profited from the 1987 Black Monday crash. His macro trading approach and emphasis on risk management set the standard for hedge fund traders.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Paul_Tudor_Jones_2006.jpg/400px-Paul_Tudor_Jones_2006.jpg"
   },
   {
     "id": "jesse_livermore",
@@ -229,13 +287,18 @@
       "Timing and patience are everything in speculation",
       "Study the behavior of the market, not tips or rumors"
     ],
-    "key_works": ["Reminiscences of a Stock Operator", "How to Trade in Stocks", "Jesse Livermore's Methods of Trading in Stocks"],
+    "key_works": [
+      "Reminiscences of a Stock Operator",
+      "How to Trade in Stocks",
+      "Jesse Livermore's Methods of Trading in Stocks"
+    ],
     "quote": "There is nothing new in Wall Street. There can't be because speculation is as old as the hills.",
-    "relevance": "The greatest speculator of the early twentieth century, making and losing multiple fortunes. His trading wisdom, captured in Reminiscences of a Stock Operator, remains a must-read classic."
+    "relevance": "The greatest speculator of the early twentieth century, making and losing multiple fortunes. His trading wisdom, captured in Reminiscences of a Stock Operator, remains a must-read classic.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Press_photo_of_Jesse_Livermore_in_1940_%28cropped%29.jpg/400px-Press_photo_of_Jesse_Livermore_in_1940_%28cropped%29.jpg"
   },
   {
     "id": "andre_kostolany",
-    "name": "Andr\u00e9 Kostolany",
+    "name": "André Kostolany",
     "years": "1906-1999",
     "emoji": "🎩",
     "category": "classical",
@@ -247,9 +310,14 @@
       "Think independently and resist the herd mentality",
       "Patience is the supreme virtue of the investor"
     ],
-    "key_works": ["Die Kunst \u00fcber Geld nachzudenken", "Kostolany's Beste Tipps f\u00fcr Geldanleger", "Der gro\u00dfe Kostolany"],
+    "key_works": [
+      "Die Kunst über Geld nachzudenken",
+      "Kostolany's Beste Tipps für Geldanleger",
+      "Der große Kostolany"
+    ],
     "quote": "Buy when the cannons are thundering, sell when the violins are playing.",
-    "relevance": "Europe's most beloved stock market philosopher and storyteller. His witty aphorisms and contrarian wisdom made investing accessible to millions of German-speaking investors."
+    "relevance": "Europe's most beloved stock market philosopher and storyteller. His witty aphorisms and contrarian wisdom made investing accessible to millions of German-speaking investors.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Kostolany_Heller_c.jpg/400px-Kostolany_Heller_c.jpg"
   },
   {
     "id": "john_templeton",
@@ -265,7 +333,11 @@
       "Bargain hunting across borders yields the best returns",
       "Humility and gratitude are essential for long-term success"
     ],
-    "key_works": ["Investing the Templeton Way", "The Templeton Plan", "Global Investing: The Templeton Way"],
+    "key_works": [
+      "Investing the Templeton Way",
+      "The Templeton Plan",
+      "Global Investing: The Templeton Way"
+    ],
     "quote": "The four most dangerous words in investing are: 'This time it's different.'",
     "relevance": "Pioneer of global investing who bought depressed stocks across the world when others feared to look abroad. His contrarian discipline and spiritual approach to wealth remain deeply influential."
   },
@@ -283,9 +355,14 @@
       "Quality of management is the most critical factor in investing",
       "A few great investments over a lifetime outperform many mediocre ones"
     ],
-    "key_works": ["Common Stocks and Uncommon Profits", "Paths to Wealth Through Common Stocks", "Conservative Investors Sleep Well"],
+    "key_works": [
+      "Common Stocks and Uncommon Profits",
+      "Paths to Wealth Through Common Stocks",
+      "Conservative Investors Sleep Well"
+    ],
     "quote": "The stock market is filled with individuals who know the price of everything, but the value of nothing.",
-    "relevance": "The father of growth investing whose scuttlebutt research method influenced Warren Buffett and generations of investors. His emphasis on qualitative analysis complemented Graham's quantitative approach."
+    "relevance": "The father of growth investing whose scuttlebutt research method influenced Warren Buffett and generations of investors. His emphasis on qualitative analysis complemented Graham's quantitative approach.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/d/d9/Philip_Arthur_Fisher.jpg"
   },
   {
     "id": "burton_malkiel",
@@ -301,7 +378,11 @@
       "Broad index funds are the smartest choice for most investors",
       "Past performance does not predict future results"
     ],
-    "key_works": ["A Random Walk Down Wall Street", "The Elements of Investing", "From Wall Street to the Great Wall"],
+    "key_works": [
+      "A Random Walk Down Wall Street",
+      "The Elements of Investing",
+      "From Wall Street to the Great Wall"
+    ],
     "quote": "A blindfolded monkey throwing darts at a newspaper's financial pages could select a portfolio that would do just as well as one carefully selected by experts.",
     "relevance": "His Random Walk Down Wall Street is the most influential book arguing for passive investing. His academic work provided the intellectual foundation for the index fund revolution."
   },
@@ -319,9 +400,14 @@
       "Cut every loss at 7-8% without exception",
       "Study historical chart patterns of the greatest winning stocks"
     ],
-    "key_works": ["How to Make Money in Stocks", "The Successful Investor", "24 Essential Lessons for Investment Success"],
+    "key_works": [
+      "How to Make Money in Stocks",
+      "The Successful Investor",
+      "24 Essential Lessons for Investment Success"
+    ],
     "quote": "The whole secret to winning and losing in the stock market is to lose the least amount possible when you're not right.",
-    "relevance": "Created the CAN SLIM method and founded Investor's Business Daily. His systematic, rules-based approach bridged fundamental and technical analysis for growth stock investors."
+    "relevance": "Created the CAN SLIM method and founded Investor's Business Daily. His systematic, rules-based approach bridged fundamental and technical analysis for growth stock investors.",
+    "image": "https://upload.wikimedia.org/wikipedia/en/b/b3/William_J._O%27Neil_%281933-2023%29_in_2018.jpg"
   },
   {
     "id": "cathie_wood",
@@ -337,9 +423,14 @@
       "Traditional valuation models fail for truly transformative companies",
       "A five-year time horizon captures what others miss"
     ],
-    "key_works": ["ARK Invest Research Papers", "ARK Big Ideas Annual Report", "In the Know with Cathie Wood (podcast)"],
+    "key_works": [
+      "ARK Invest Research Papers",
+      "ARK Big Ideas Annual Report",
+      "In the Know with Cathie Wood (podcast)"
+    ],
     "quote": "Innovation solves problems. The bigger the problem, the bigger the opportunity.",
-    "relevance": "Founder of ARK Invest and a bold voice for disruptive innovation investing. Her conviction-driven, research-heavy approach polarizes but has inspired a new generation of forward-looking investors."
+    "relevance": "Founder of ARK Invest and a bold voice for disruptive innovation investing. Her conviction-driven, research-heavy approach polarizes but has inspired a new generation of forward-looking investors.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Cathie_Wood_ARK_Invest_Photo.jpg/400px-Cathie_Wood_ARK_Invest_Photo.jpg"
   },
   {
     "id": "michael_burry",
@@ -355,7 +446,11 @@
       "Read the footnotes — hidden risks live in the details",
       "Concentrated positions in high-conviction ideas yield outsized returns"
     ],
-    "key_works": ["Scion Capital Letters", "The Big Short (featured)", "SEC Filings and Public Analyses"],
+    "key_works": [
+      "Scion Capital Letters",
+      "The Big Short (featured)",
+      "SEC Filings and Public Analyses"
+    ],
     "quote": "I was wrong about everything early. I was just less wrong than everybody else.",
     "relevance": "Foresaw and profited from the 2008 subprime mortgage crisis, as depicted in The Big Short. His obsessive, detail-oriented research style epitomizes independent thinking in investing."
   }

@@ -371,6 +371,7 @@ body {
     border-radius: 6px;
     transition: box-shadow 0.3s, transform 0.2s, background 0.3s;
     display: block;
+    overflow: hidden;
 }
 
 .card:hover {
@@ -457,8 +458,15 @@ a.card {
 .strategy-card {
     display: flex;
     flex-direction: column;
-    gap: 0.3rem;
+    gap: 0;
     min-height: 200px;
+}
+
+.strategy-card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    flex: 1;
 }
 
 .strategy-card-header {
@@ -2040,6 +2048,77 @@ a.card {
 .update-body p { margin: 0.3rem 0 0; color: var(--text-gray); font-size: 0.9rem; }
 
 /* ==========================================================================
+   22b. CARD IMAGES (Wikipedia thumbnails)
+   ========================================================================== */
+/* Card images (shared by strategy, story, mindset) */
+.mc-card-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.strategy-card.has-img {
+    padding: 0;
+}
+
+.strategy-card.has-img .strategy-card-body {
+    padding: 0.75rem 1.25rem 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    flex: 1;
+}
+
+/* Thinker portrait images */
+.thinker-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.thinker-card.has-img {
+    padding: 0;
+    overflow: hidden;
+}
+
+.thinker-card.has-img .thinker-card-body {
+    padding: 1.25rem 1.5rem 1.5rem;
+}
+
+/* Story card images */
+.story-card.has-img {
+    padding: 0;
+    overflow: hidden;
+}
+
+.story-card.has-img .story-card-body {
+    padding: 1.25rem 1.5rem 1.5rem;
+}
+
+/* Mindset card images */
+.mindset-card.has-img {
+    padding: 0;
+    overflow: hidden;
+}
+
+.mindset-card.has-img .mindset-card-body {
+    padding: 1.25rem 1.5rem 1.5rem;
+}
+
+/* Strategy detail hero image */
+.mc-detail-img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 1.25rem;
+}
+
+/* ==========================================================================
    23. RESPONSIVE BREAKPOINTS
    ========================================================================== */
 @media (max-width: 1024px) {
@@ -2118,6 +2197,18 @@ a.card {
         border-radius: 16px 16px 0 0;
         margin-top: 0;
     }
+
+    .mc-card-img {
+        height: 150px;
+    }
+
+    .thinker-img {
+        height: 180px;
+    }
+
+    .mc-detail-img {
+        max-height: 220px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -2156,6 +2247,19 @@ a.card {
 
     .footer-content {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mc-card-img {
+        height: 140px;
+    }
+
+    .thinker-img {
+        height: 160px;
+    }
+
+    .mc-detail-img {
+        max-height: 180px;
+        border-radius: 8px;
     }
 }
 

@@ -151,23 +151,28 @@ function _strategyCardHtml(strategy) {
     ? `${strategy.expected_return.annual_pct}% ${_t('expected_return.annual')}`
     : '';
 
-  return `<a href="strategy-detail.html?id=${strategy.id}" class="card strategy-card" style="border-left-color:${catColor}">
-    <div class="strategy-card-header">
-      <span class="card-icon">${emoji}</span>
-      <span class="card-title">${name}</span>
+  const img = strategy.image ? `<img src="${strategy.image}" alt="" class="mc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
+
+  return `<a href="strategy-detail.html?id=${strategy.id}" class="card strategy-card ${strategy.image ? 'has-img' : ''}" style="border-left-color:${catColor}">
+    ${img}
+    <div class="strategy-card-body">
+      <div class="strategy-card-header">
+        <span class="card-icon">${emoji}</span>
+        <span class="card-title">${name}</span>
+      </div>
+      ${desc ? `<p class="strategy-card-desc">${desc}</p>` : ''}
+      <div class="strategy-card-badges">
+        ${_riskBadge(strategy.risk_level)}
+        ${_difficultyBadge(strategy.difficulty)}
+      </div>
+      <div class="strategy-card-badges-row2">
+        ${_capitalBadge(strategy.capital_needed ? strategy.capital_needed.tier : null)}
+        ${_timeBadge(strategy.time_to_results)}
+      </div>
+      ${returnStr ? `<div class="strategy-card-return">${returnStr}</div>` : ''}
+      <div class="strategy-card-benefits">${benefitPreview}</div>
+      <span class="card-link" style="color:${catColor}">${_t('detail.view')} \u2192</span>
     </div>
-    ${desc ? `<p class="strategy-card-desc">${desc}</p>` : ''}
-    <div class="strategy-card-badges">
-      ${_riskBadge(strategy.risk_level)}
-      ${_difficultyBadge(strategy.difficulty)}
-    </div>
-    <div class="strategy-card-badges-row2">
-      ${_capitalBadge(strategy.capital_needed ? strategy.capital_needed.tier : null)}
-      ${_timeBadge(strategy.time_to_results)}
-    </div>
-    ${returnStr ? `<div class="strategy-card-return">${returnStr}</div>` : ''}
-    <div class="strategy-card-benefits">${benefitPreview}</div>
-    <span class="card-link" style="color:${catColor}">${_t('detail.view')} \u2192</span>
   </a>`;
 }
 
@@ -477,10 +482,13 @@ function renderStrategyDetail() {
   const benefits = strategy.benefits || {};
   const related = Data.getRelatedStrategies(strategy.id);
 
+  const detailImg = strategy.image ? `<img src="${strategy.image}" alt="" class="mc-detail-img" loading="lazy" onerror="this.style.display='none'">` : '';
+
   el.innerHTML = `
     ${_backLink()}
 
     <div class="detail-header">
+      ${detailImg}
       <h1>${strategy.emoji || ''} ${name}</h1>
       ${_strategyDesc(strategy) ? `<p class="detail-description">${_strategyDesc(strategy)}</p>` : ''}
       <div class="detail-tags">
@@ -1395,24 +1403,29 @@ function renderThinkers() {
       </div>
 
       <div class="thinker-grid">
-        ${filtered.map(t => `
-          <div class="thinker-card">
-            <div class="thinker-header">
-              <span class="thinker-emoji">${t.emoji}</span>
-              <div>
-                <div class="thinker-name">${t.name} <span class="author-info-trigger" tabindex="0" aria-label="About ${t.name}">ℹ️<span class="author-info-balloon"><strong>${t.name}</strong> (${t.years})<br>${t.tradition} · ${t.origin}<br><em>${t.relevance}</em></span></span></div>
-                <div class="thinker-years">${t.years} | ${t.origin}</div>
-                <div class="thinker-tradition">${t.tradition}</div>
+        ${filtered.map(t => {
+          const thinkerImg = t.image ? `<img src="${t.image}" alt="${t.name}" class="thinker-img" loading="lazy" onerror="this.style.display='none'">` : '';
+          return `
+          <div class="thinker-card ${t.image ? 'has-img' : ''}">
+            ${thinkerImg}
+            <div class="thinker-card-body">
+              <div class="thinker-header">
+                <span class="thinker-emoji">${t.emoji}</span>
+                <div>
+                  <div class="thinker-name">${t.name} <span class="author-info-trigger" tabindex="0" aria-label="About ${t.name}">ℹ️<span class="author-info-balloon"><strong>${t.name}</strong> (${t.years})<br>${t.tradition} · ${t.origin}<br><em>${t.relevance}</em></span></span></div>
+                  <div class="thinker-years">${t.years} | ${t.origin}</div>
+                  <div class="thinker-tradition">${t.tradition}</div>
+                </div>
               </div>
+              <div class="thinker-quote">"${t.quote}"</div>
+              <h4>${_t('thinkers.ideas')}</h4>
+              <ul class="thinker-ideas">
+                ${t.main_ideas.map(idea => `<li>${idea}</li>`).join('')}
+              </ul>
+              <div class="thinker-works"><strong>${_t('thinkers.works')}:</strong> ${t.key_works.join(', ')}</div>
             </div>
-            <div class="thinker-quote">"${t.quote}"</div>
-            <h4>${_t('thinkers.ideas')}</h4>
-            <ul class="thinker-ideas">
-              ${t.main_ideas.map(idea => `<li>${idea}</li>`).join('')}
-            </ul>
-            <div class="thinker-works"><strong>${_t('thinkers.works')}:</strong> ${t.key_works.join(', ')}</div>
-          </div>
-        `).join('')}
+          </div>`;
+        }).join('')}
       </div>
     `;
 
@@ -1477,21 +1490,25 @@ function renderStories() {
         const story = (s.story && s.story[lang]) || s.story.en;
         const lesson = (s.lesson && s.lesson[lang]) || s.lesson.en;
         const tags = (s.tags || []).map(t => `<span class="featured-tag">${t}</span>`).join('');
+        const storyImg = s.image ? `<img src="${s.image}" alt="" class="mc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
         return `
-          <div class="story-card">
-            <div class="story-header">
-              <span class="story-emoji">${s.emoji}</span>
-              <div>
-                <div class="story-title">${title}</div>
-                <div class="story-meta">${s.person} · ${s.year}</div>
-                <div class="story-earnings">${s.earnings}</div>
+          <div class="story-card ${s.image ? 'has-img' : ''}">
+            ${storyImg}
+            <div class="story-card-body">
+              <div class="story-header">
+                <span class="story-emoji">${s.emoji}</span>
+                <div>
+                  <div class="story-title">${title}</div>
+                  <div class="story-meta">${s.person} · ${s.year}</div>
+                  <div class="story-earnings">${s.earnings}</div>
+                </div>
               </div>
+              <div class="story-text">${story}</div>
+              <div class="story-lesson">
+                <strong>${_t('stories.lesson')}:</strong> ${lesson}
+              </div>
+              <div class="featured-tags" style="margin-top:0.5rem">${tags}</div>
             </div>
-            <div class="story-text">${story}</div>
-            <div class="story-lesson">
-              <strong>${_t('stories.lesson')}:</strong> ${lesson}
-            </div>
-            <div class="featured-tags" style="margin-top:0.5rem">${tags}</div>
           </div>`;
       }).join('')}
     </div>
@@ -1528,20 +1545,24 @@ function renderMindset() {
           const reality = (m.reality_check && m.reality_check[lang]) || m.reality_check.en;
           const fix = (m.mindset_fix && m.mindset_fix[lang]) || m.mindset_fix.en;
           const tags = (m.tags || []).map(t => `<span class="featured-tag">${t}</span>`).join('');
+          const mindsetImg = m.image ? `<img src="${m.image}" alt="" class="mc-card-img" loading="lazy" onerror="this.style.display='none'">` : '';
           return `
-            <div class="mindset-card">
-              <div class="mindset-header">
-                <span class="mindset-emoji">${m.emoji}</span>
-                <span class="mindset-title">${title}</span>
+            <div class="mindset-card ${m.image ? 'has-img' : ''}">
+              ${mindsetImg}
+              <div class="mindset-card-body">
+                <div class="mindset-header">
+                  <span class="mindset-emoji">${m.emoji}</span>
+                  <span class="mindset-title">${title}</span>
+                </div>
+                <div class="mindset-story">${story}</div>
+                <div class="mindset-reality">
+                  <strong>${_t('mindset.reality_check')}:</strong> ${reality}
+                </div>
+                <div class="mindset-fix">
+                  <strong>${_t('mindset.mindset_fix')}:</strong> ${fix}
+                </div>
+                <div class="featured-tags" style="margin-top:0.5rem">${tags}</div>
               </div>
-              <div class="mindset-story">${story}</div>
-              <div class="mindset-reality">
-                <strong>${_t('mindset.reality_check')}:</strong> ${reality}
-              </div>
-              <div class="mindset-fix">
-                <strong>${_t('mindset.mindset_fix')}:</strong> ${fix}
-              </div>
-              <div class="featured-tags" style="margin-top:0.5rem">${tags}</div>
             </div>`;
         }).join('')}
       </div>
