@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://moneyclever.github.io/sitemap.xml
