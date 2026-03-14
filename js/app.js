@@ -435,12 +435,12 @@ function renderCategory(catId) {
 
       <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1.5rem;align-items:center">
         <label style="font-size:0.9rem;font-weight:600">${_t('risk.label')}:</label>
-        <select id="cat-filter-risk" style="padding:0.3rem 0.5rem;border:1px solid #e0e0e0;border-radius:4px">
+        <select id="cat-filter-risk" style="padding:0.5rem 0.75rem;border:1px solid #e0e0e0;border-radius:4px;min-height:44px;font-size:1rem">
           <option value="0">All</option>
           ${[1,2,3,4,5].map(r => `<option value="${r}" ${filterRisk===r?'selected':''}>${_t('risk.' + r)}</option>`).join('')}
         </select>
         <label style="font-size:0.9rem;font-weight:600;margin-left:1rem">Sort:</label>
-        <select id="cat-sort" style="padding:0.3rem 0.5rem;border:1px solid #e0e0e0;border-radius:4px">
+        <select id="cat-sort" style="padding:0.5rem 0.75rem;border:1px solid #e0e0e0;border-radius:4px;min-height:44px;font-size:1rem">
           <option value="name" ${sortBy==='name'?'selected':''}>Name</option>
           <option value="risk" ${sortBy==='risk'?'selected':''}>Risk</option>
           <option value="difficulty" ${sortBy==='difficulty'?'selected':''}>Difficulty</option>
