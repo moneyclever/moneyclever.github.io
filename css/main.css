@@ -2255,6 +2255,29 @@ a.card {
     .mc-detail-img {
         max-height: 220px;
     }
+
+    .page-title {
+        font-size: 1.5rem;
+    }
+
+    .share-bar {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .summary-box {
+        padding: 1rem;
+    }
+
+    .back-bar {
+        padding: 0.5rem 1rem;
+    }
+
+    .compare-bar-label {
+        width: 100px;
+        min-width: 100px;
+        max-width: 100px;
+    }
 }
 
 @media (max-width: 480px) {
@@ -2306,6 +2329,14 @@ a.card {
     .mc-detail-img {
         max-height: 180px;
         border-radius: 8px;
+    }
+
+    .page-title {
+        font-size: 1.3rem;
+    }
+
+    .section-title {
+        font-size: 1.2rem;
     }
 }
 
